@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-17T22:03:45.353Z",
+  "at": "2026-10-17T22:09:42.570Z",
   "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/",
   "method": "Live GitHub Pages in Chrome mobile emulation, 390×844 DPR2; not physical Android/iPhone",
   "realDeviceTest": false,
@@ -7,6 +7,11 @@
     {
       "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/?role=customer&store=cloud&season=spring&period=morning#customer/home",
       "status": 200,
+      "sceneLoad": {
+        "src": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/assets/locked-spring.webp",
+        "width": 853,
+        "height": 912
+      },
       "mode": "local",
       "role": "customer",
       "route": "home",
@@ -34,6 +39,11 @@
     {
       "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/?role=customer&store=cloud&season=summer&period=day#customer/home",
       "status": 200,
+      "sceneLoad": {
+        "src": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/assets/locked-summer-b.webp",
+        "width": 1213,
+        "height": 1297
+      },
       "mode": "local",
       "role": "customer",
       "route": "home",
@@ -61,6 +71,11 @@
     {
       "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/?role=customer&store=cloud&season=autumn&period=sunset#customer/home",
       "status": 200,
+      "sceneLoad": {
+        "src": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/assets/locked-autumn-a.webp",
+        "width": 853,
+        "height": 912
+      },
       "mode": "local",
       "role": "customer",
       "route": "home",
@@ -88,6 +103,11 @@
     {
       "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/?role=customer&store=cloud&season=winter&period=day#customer/home",
       "status": 200,
+      "sceneLoad": {
+        "src": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/assets/world-winter-day.webp",
+        "width": 1212,
+        "height": 1297
+      },
       "mode": "local",
       "role": "customer",
       "route": "home",
@@ -115,6 +135,7 @@
     {
       "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/?role=customer&store=cloud&season=spring&period=morning#customer/booking",
       "status": 200,
+      "sceneLoad": null,
       "mode": "local",
       "role": "customer",
       "route": "booking",
@@ -129,6 +150,7 @@
     {
       "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/?role=owner&store=cloud&season=autumn&period=sunset#owner/today",
       "status": 200,
+      "sceneLoad": null,
       "mode": "local",
       "role": "owner",
       "route": "today",
@@ -143,6 +165,7 @@
     {
       "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/?role=owner&store=cloud&season=summer&period=day#owner/radar",
       "status": 200,
+      "sceneLoad": null,
       "mode": "local",
       "role": "owner",
       "route": "radar",
@@ -157,6 +180,7 @@
     {
       "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/?role=staff&store=cloud&season=winter&period=day#staff/work",
       "status": 200,
+      "sceneLoad": null,
       "mode": "local",
       "role": "staff",
       "route": "work",
@@ -171,6 +195,7 @@
     {
       "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/?role=staff&store=cloud&season=spring&period=morning#staff/my-services",
       "status": 200,
+      "sceneLoad": null,
       "mode": "local",
       "role": "staff",
       "route": "my-services",
