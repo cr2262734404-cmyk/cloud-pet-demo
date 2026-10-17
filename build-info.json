@@ -1,0 +1,10 @@
+{
+  "name": "云朵宠物 H5 交互演示",
+  "builtAt": "2026-10-17T19:46:28.390Z",
+  "publicUrl": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/",
+  "mode": "static-localStorage",
+  "crossDeviceSync": false,
+  "realMessaging": false,
+  "realPayments": false,
+  "wechatMiniProgram": false
+}
