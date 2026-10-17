@@ -1,8 +1,8 @@
-import * as ui from './ui.js?v=world16-v3';
-import {renderCustomer,handleCustomer,mountCustomer,customerRoutes} from './customer.js?v=world16-v3';
-import {renderBusiness,handleBusiness,mountBusiness,businessRoutes} from './business.js?v=world16-v3';
-import {DemoEngine} from './engine.mjs?v=world16-v3';
-import {approvedVariants,canonicalPeriods,sceneAsset} from './worlds.js?v=world16-v3';
+import * as ui from './ui.js?v=world16-v4';
+import {renderCustomer,handleCustomer,mountCustomer,customerRoutes} from './customer.js?v=world16-v4';
+import {renderBusiness,handleBusiness,mountBusiness,businessRoutes} from './business.js?v=world16-v4';
+import {DemoEngine} from './engine.mjs?v=world16-v4';
+import {approvedVariants,canonicalPeriods,sceneAsset} from './worlds.js?v=world16-v4';
 const $=s=>document.querySelector(s),roles={customer:'顾客端',owner:'老板端',staff:'员工端'},seasons={spring:'春',summer:'夏',autumn:'秋',winter:'冬'},periods={morning:'清晨',day:'白天',sunset:'夕阳',night:'夜晚'};
 const params=new URLSearchParams(location.search);let role=params.get('role')||localStorage.getItem('cloud-role')||'customer';if(!roles[role])role='customer';let storeId=params.get('store')||localStorage.getItem('cloud-store')||'cloud';if(!['cloud','meadow'].includes(storeId))storeId='cloud';
 let savedTheme;try{savedTheme=JSON.parse(localStorage.getItem('cloud-theme'));}catch{}let theme={season:params.get('season')||savedTheme?.season||'spring',period:params.get('period')||savedTheme?.period||'morning',auto:savedTheme?.auto||false,low:savedTheme?.low||false,variant:params.get('variant')||savedTheme?.variant||'a'};

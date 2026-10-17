@@ -14,4 +14,4 @@ export const section=(title,right='')=>`<div class="section-title"><h2>${esc(tit
 export const field=(label,name,value='',type='text',attrs='')=>`<label class="field"><span>${esc(label)}</span><input class="input" type="${esc(type)}" name="${esc(name)}" value="${esc(value)}" ${attrs}></label>`;
 export const petAvatar=(p,size=56)=>`<img class="avatar" src="${esc(asset(p?.photo||'./assets/pet-dog.jpg'))}" alt="${esc(p?.name||'宠物')}的模拟档案照片" width="${size}" height="${size}" style="width:${size}px;height:${size}px" loading="lazy">`;
 export async function copy(text){if(navigator.clipboard&&window.isSecureContext){await navigator.clipboard.writeText(text);return;}const el=document.createElement('textarea');el.value=text;el.style.cssText='position:fixed;top:0;left:0;opacity:.01';document.body.append(el);el.focus();el.select();const ok=document.execCommand('copy');el.remove();if(!ok)throw new Error('浏览器未允许复制，请长按选择话术复制');}
-export {downloadPoster} from './export.js?v=world16-v3';
+export {downloadPoster} from './export.js?v=world16-v4';

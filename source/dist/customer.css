@@ -83,3 +83,20 @@ body[data-period=night] .locked-home .home-welcome .season-label{background:line
 body[data-season=winter][data-period=day] .locked-home .home-welcome,body[data-season=winter][data-period=morning] .locked-home .home-welcome{color:#163e70;text-shadow:0 1px 3px #ffffffb8}
 body[data-season=winter][data-period=day] .locked-home .home-welcome .season-label,body[data-season=winter][data-period=morning] .locked-home .home-welcome .season-label{color:#163e70;background:rgba(240,249,255,.72)}
 @media(max-width:360px){.locked-home .cute-entry-icon{width:86px;height:80px}.locked-home .cute-entry-icon>*{width:86px!important;height:80px!important;max-width:86px;max-height:80px}}
+
+/* Keep the approved scene visible through the booking and lower glass. */
+.locked-home .home-content{margin-top:-20px;isolation:isolate}
+.locked-home .home-hero{aspect-ratio:853 / 895}
+.locked-home .home-hero:after{content:"";position:absolute;pointer-events:none;left:0;right:0;bottom:-18px;height:70px;background:linear-gradient(180deg,transparent 5%,color-mix(in srgb,var(--ambient-low) 78%,transparent));filter:blur(9px);opacity:.57}
+.locked-home .home-scene:after{display:block;inset:0;background:linear-gradient(180deg,transparent 88%,color-mix(in srgb,var(--ambient-low) 78%,transparent) 100%)}
+.locked-home .home-content:before{content:"";position:absolute;z-index:-1;pointer-events:none;top:0;left:0;right:0;height:270px;background-image:var(--scene-image);background-size:100% auto;background-position:center bottom;background-repeat:no-repeat;opacity:.58;filter:blur(15px);transform:scaleY(-1);-webkit-mask-image:linear-gradient(0deg,#000 0%,#000 12%,transparent 100%);mask-image:linear-gradient(0deg,#000 0%,#000 12%,transparent 100%)}
+.locked-home .home-content{background-image:radial-gradient(ellipse 72% 52% at 20% 0%,color-mix(in srgb,var(--ambient) 43%,transparent),transparent 100%),radial-gradient(ellipse 60% 45% at 86% 56%,color-mix(in srgb,var(--ambient-low) 50%,transparent),transparent 100%)}
+.locked-home .home-booking{background:radial-gradient(ellipse 90% 44% at 15% 0%,#ffffffa0,transparent 90%),linear-gradient(140deg,var(--glass-sheen),var(--glass-heart) 48%,var(--glass-foot))!important;border:1px solid var(--glass-rim)!important;box-shadow:0 10px 24px var(--glass-depth),inset 0 2px 2px #ffffffc2,inset 0 -2px 5px var(--glass-depth)!important;backdrop-filter:blur(21px) saturate(1.4);-webkit-backdrop-filter:blur(21px) saturate(1.4)}
+.locked-home .home-booking:before,.locked-home .home-booking:after{display:none}
+.locked-home .home-booking-bottom>.button{border-radius:999px;box-shadow:inset 0 2px 2px #ffffffb8,inset 0 -2px 3px var(--glass-depth),0 4px 11px var(--glass-depth)}
+.locked-home .home-availability{color:var(--ink)}
+.locked-home .home-entry{filter:drop-shadow(0 3px 6px color-mix(in srgb,var(--accent) 12%,transparent))}
+.locked-home .home-care-record{background:radial-gradient(ellipse at 12% 0%,#ffffffad,transparent 75%),linear-gradient(140deg,var(--glass-sheen),var(--glass-heart) 45%,var(--glass-foot));border:1px solid var(--glass-rim);box-shadow:0 8px 17px var(--glass-depth),inset 0 2px 2px #ffffffbc}
+.locked-home .home-welcome .season-label{background:linear-gradient(135deg,var(--glass-sheen),var(--glass-heart));border-color:var(--glass-rim);box-shadow:inset 0 1px 2px #ffffffad,0 4px 10px var(--glass-depth);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+body[data-period=night] .locked-home .home-booking{background:radial-gradient(ellipse at 15% 0%,#ffffff47,transparent 85%),linear-gradient(140deg,var(--glass-sheen),var(--glass-heart) 48%,var(--glass-foot))!important;box-shadow:0 10px 24px var(--glass-depth),inset 0 2px 2px #ffffff78,inset 0 -2px 4px var(--glass-depth)!important}
+.low-effects .locked-home .home-content:before{filter:none;opacity:.18}

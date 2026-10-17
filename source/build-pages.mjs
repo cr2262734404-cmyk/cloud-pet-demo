@@ -7,7 +7,7 @@ const PROJECT=dirname(fileURLToPath(import.meta.url));
 const DIST=join(PROJECT,'dist');
 const OUTPUT=resolve(PROJECT,'../github-pages-site');
 const OUTPUTS=resolve(PROJECT,'..');
-const RELEASE='world16-v3';
+const RELEASE='world16-v4';
 if(!OUTPUT.startsWith(OUTPUTS+sep)||OUTPUT===DIST)throw new Error('Published copy must stay in the intended outputs folder.');
 mkdirSync(DIST,{recursive:true});
 copyFileSync(join(PROJECT,'engine.mjs'),join(DIST,'engine.mjs'));

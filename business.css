@@ -93,4 +93,14 @@ body[data-period="night"] .biz-shortcut-icon,body[data-period="night"] .biz-aler
 .biz-tool-grid .biz-shortcut{grid-template-columns:50px minmax(0,1fr);min-height:79px}
 @media(max-width:360px){.biz-shortcut,.biz-tool-grid .biz-shortcut{grid-template-columns:43px minmax(0,1fr)}.biz-shortcut-icon{width:42px;height:42px}.biz-shortcut-art .feature-art{width:42px!important;height:42px!important}}
 
+/* The workbenches use the same seasonal material as the customer journey. */
+.biz-world{border:1px solid var(--glass-rim);box-shadow:0 12px 25px var(--glass-depth),inset 0 1px 2px #ffffffba}
+.biz-world-copy{background:radial-gradient(ellipse at 20% 0%,#ffffff92,transparent 75%),linear-gradient(145deg,var(--glass-sheen),var(--glass-heart) 55%,var(--glass-foot));backdrop-filter:blur(18px) saturate(1.3);-webkit-backdrop-filter:blur(18px) saturate(1.3)}
+.biz-season-pill{background:linear-gradient(135deg,var(--glass-sheen),var(--glass-foot));border-color:var(--glass-rim);box-shadow:inset 0 2px 2px #ffffffb8,0 4px 12px var(--glass-depth)}
+.biz-shortcut,.biz-status-grid button,.biz-care-note,.biz-mini-summary span,.biz-profile-symbol{background:radial-gradient(ellipse at 18% 0%,#ffffff9a,transparent 83%),linear-gradient(145deg,var(--glass-sheen),var(--glass-heart));border:1px solid var(--glass-rim);box-shadow:inset 0 2px 2px #ffffff9d,0 4px 11px var(--glass-depth);backdrop-filter:blur(12px) saturate(1.25);-webkit-backdrop-filter:blur(12px) saturate(1.25)}
+.biz-shortcut-icon:not(.biz-shortcut-art){background:radial-gradient(ellipse at 20% 0%,#ffffffd0,transparent 90%),linear-gradient(145deg,var(--glass-sheen),var(--glass-heart));border-color:var(--glass-rim);box-shadow:inset 0 2px 2px #ffffffcb,inset 0 -2px 3px var(--glass-depth),0 3px 8px var(--glass-depth)}
+.biz-shortcut-art{background:transparent;border:0;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none}
+.biz-chart-well,.biz-chart-column.active .biz-chart-month{background:linear-gradient(160deg,var(--glass-sheen),var(--glass-heart));border:1px solid var(--glass-rim);box-shadow:inset 0 1px 3px #ffffff9e}
+body[data-period=night] .biz-world-copy{background:linear-gradient(145deg,var(--glass-sheen),var(--glass-heart) 55%,var(--glass-foot))}
+
 .biz-world-store{display:flex;align-items:center;gap:7px;max-width:52%}.biz-world-store img{width:26px;height:26px;filter:drop-shadow(0 1px 3px #143d6170)}
