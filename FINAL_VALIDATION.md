@@ -8,6 +8,7 @@
 - 16 个场景由 4 张锁定母图及 12 张独立时段延展组成，映射见 `worlds.js`。春蓝、夏绿、秋金、冬冰蓝的玻璃与强调色贯穿三端。
 - 春夏秋冬三枚首页主功能插画从用户提供的参考图独立提取，UI 使用 `feature-{season}-{bath|book|store}.png`；来源 SHA 与裁切坐标见 `assets/feature-icon-manifest.json`。春季为蓝白立体图标。用户参考原图未覆盖。
 - 场景、文字、预约卡片、按钮、入口和导航均为独立 DOM。三端首页分别侧重顾客预约、老板经营机会、员工当日护理任务，并共享品牌与季节系统。
+- `world16-v4` 将锁定场景的近景色与空气感延续至内容区，主卡、记录、内页卡片、表单、标签、按钮和三端导航共用四季液态玻璃参数。卡片使用背景模糊、季节染色、表面高光、柔边和内外层阴影；夏秋冬及春季功能插画保持参考图的立体体系。昼夜使用独立场景文件，不以简单滤镜代替。
 
 ## 页面与业务
 
@@ -25,11 +26,12 @@
 | 16 状态 × 3 手机宽度 | 320/390/430px 共 48 组；16 个不同场景文件与四季插画载入；0 横向溢出。见 `source/docs/final-theme-audit.json`。 |
 | 新增经营/员工操作 | 订单与宠物筛选、趋势切换与月份、员工服务筛选、偏好保存刷新与重置，7/7 通过。见 `source/docs/final-business-actions.json`。 |
 | 历史业务闭环 | 预约→履约→手记/礼物→消费/归因已有浏览器与引擎验证；证据在 `source/docs/`。 |
+| GitHub Pages 最终版本 | 发布运行 `39073402122` 成功；线上 `world16-v4` 在 390×844 移动模拟下 9 个顾客/老板/员工页面及 7 个关键资源均通过，见 `source/docs/final-public-audit.json`。 |
 | 真机 | **Android 与 iPhone 均未由本环境实际操作。** Chrome 移动模拟不能代替真机验收。 |
 
 ## 部署与恢复
 
-- GitHub Pages 使用公开仓库 `main / (root)`，网址路径固定为 `/cloud-pet-demo/`。根目录为静态站，`source/` 为可维护源码，`qa/` 为辅助审计脚本。
+- GitHub Pages 使用公开仓库 `main / (root)`，网址路径固定为 `/cloud-pet-demo/`。根目录为静态站，`source/` 为可维护源码；二维码文件为 `assets/access-qr.png`。
 - 本地源码启动：Node 20+，进入 `source/`，运行 `node server.mjs`。同一局域网中 Node 服务模式可共享模拟数据；电脑需保持运行。
 - 构建：在 `source/` 执行 `node build-pages.mjs --url https://cr2262734404-cmyk.github.io/cloud-pet-demo/`。本机项目原目录为 `outputs/cloud-pet-demo/`，构建结果为 `outputs/github-pages-site/`。
 - 测试：`node --test test-engine.mjs`。真实设备需要分别在 Android Chrome 与 iPhone Safari 打开固定地址，切换三端和 16 主题，完成预约、履约、报告、导航检查，并记录观察。

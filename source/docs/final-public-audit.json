@@ -1,0 +1,224 @@
+{
+  "at": "2026-10-17T22:03:45.353Z",
+  "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/",
+  "method": "Live GitHub Pages in Chrome mobile emulation, 390×844 DPR2; not physical Android/iPhone",
+  "realDeviceTest": false,
+  "checks": [
+    {
+      "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/?role=customer&store=cloud&season=spring&period=morning#customer/home",
+      "status": 200,
+      "mode": "local",
+      "role": "customer",
+      "route": "home",
+      "season": "spring",
+      "period": "morning",
+      "overflow": 0,
+      "broken": [],
+      "icons": [
+        {
+          "src": "./assets/feature-spring-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-store.png",
+          "ok": true
+        }
+      ],
+      "title": "云朵宠物 · 顾客端",
+      "htmlVersion": "./main.js?v=world16-v4"
+    },
+    {
+      "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/?role=customer&store=cloud&season=summer&period=day#customer/home",
+      "status": 200,
+      "mode": "local",
+      "role": "customer",
+      "route": "home",
+      "season": "summer",
+      "period": "day",
+      "overflow": 0,
+      "broken": [],
+      "icons": [
+        {
+          "src": "./assets/feature-summer-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-store.png",
+          "ok": true
+        }
+      ],
+      "title": "云朵宠物 · 顾客端",
+      "htmlVersion": "./main.js?v=world16-v4"
+    },
+    {
+      "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/?role=customer&store=cloud&season=autumn&period=sunset#customer/home",
+      "status": 200,
+      "mode": "local",
+      "role": "customer",
+      "route": "home",
+      "season": "autumn",
+      "period": "sunset",
+      "overflow": 0,
+      "broken": [],
+      "icons": [
+        {
+          "src": "./assets/feature-autumn-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-store.png",
+          "ok": true
+        }
+      ],
+      "title": "云朵宠物 · 顾客端",
+      "htmlVersion": "./main.js?v=world16-v4"
+    },
+    {
+      "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/?role=customer&store=cloud&season=winter&period=day#customer/home",
+      "status": 200,
+      "mode": "local",
+      "role": "customer",
+      "route": "home",
+      "season": "winter",
+      "period": "day",
+      "overflow": 0,
+      "broken": [],
+      "icons": [
+        {
+          "src": "./assets/feature-winter-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-store.png",
+          "ok": true
+        }
+      ],
+      "title": "云朵宠物 · 顾客端",
+      "htmlVersion": "./main.js?v=world16-v4"
+    },
+    {
+      "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/?role=customer&store=cloud&season=spring&period=morning#customer/booking",
+      "status": 200,
+      "mode": "local",
+      "role": "customer",
+      "route": "booking",
+      "season": "spring",
+      "period": "morning",
+      "overflow": 0,
+      "broken": [],
+      "icons": [],
+      "title": "云朵宠物 · 顾客端",
+      "htmlVersion": "./main.js?v=world16-v4"
+    },
+    {
+      "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/?role=owner&store=cloud&season=autumn&period=sunset#owner/today",
+      "status": 200,
+      "mode": "local",
+      "role": "owner",
+      "route": "today",
+      "season": "autumn",
+      "period": "sunset",
+      "overflow": 0,
+      "broken": [],
+      "icons": [],
+      "title": "云朵宠物 · 老板端",
+      "htmlVersion": "./main.js?v=world16-v4"
+    },
+    {
+      "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/?role=owner&store=cloud&season=summer&period=day#owner/radar",
+      "status": 200,
+      "mode": "local",
+      "role": "owner",
+      "route": "radar",
+      "season": "summer",
+      "period": "day",
+      "overflow": 0,
+      "broken": [],
+      "icons": [],
+      "title": "云朵宠物 · 老板端",
+      "htmlVersion": "./main.js?v=world16-v4"
+    },
+    {
+      "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/?role=staff&store=cloud&season=winter&period=day#staff/work",
+      "status": 200,
+      "mode": "local",
+      "role": "staff",
+      "route": "work",
+      "season": "winter",
+      "period": "day",
+      "overflow": 0,
+      "broken": [],
+      "icons": [],
+      "title": "云朵宠物 · 员工端",
+      "htmlVersion": "./main.js?v=world16-v4"
+    },
+    {
+      "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/?role=staff&store=cloud&season=spring&period=morning#staff/my-services",
+      "status": 200,
+      "mode": "local",
+      "role": "staff",
+      "route": "my-services",
+      "season": "spring",
+      "period": "morning",
+      "overflow": 0,
+      "broken": [],
+      "icons": [],
+      "title": "云朵宠物 · 员工端",
+      "htmlVersion": "./main.js?v=world16-v4"
+    }
+  ],
+  "assetResults": [
+    {
+      "name": "feature-spring-bath.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "name": "feature-summer-book.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "name": "feature-autumn-store.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "name": "feature-winter-bath.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "name": "world-winter-day.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "name": "world-summer-night.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "name": "access-qr.png",
+      "status": 200,
+      "type": "image/png"
+    }
+  ],
+  "errors": []
+}
