@@ -1,0 +1,1112 @@
+{
+  "at": "2026-10-17T21:11:55.227Z",
+  "method": "Chrome mobile emulation; 320/390/430 widths, 16 scenes; not real phones",
+  "realDeviceTest": false,
+  "checks": [
+    {
+      "width": 320,
+      "season": "spring",
+      "period": "morning",
+      "theme": "spring-morning",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-spring-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-spring.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 320,
+      "season": "spring",
+      "period": "day",
+      "theme": "spring-day",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-spring-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-spring-day.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 320,
+      "season": "spring",
+      "period": "sunset",
+      "theme": "spring-sunset",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-spring-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-spring-sunset.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 320,
+      "season": "spring",
+      "period": "night",
+      "theme": "spring-night",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-spring-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-spring-night.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 320,
+      "season": "summer",
+      "period": "morning",
+      "theme": "summer-morning",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-summer-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-summer-morning.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 320,
+      "season": "summer",
+      "period": "day",
+      "theme": "summer-day",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-summer-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-summer-b.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 320,
+      "season": "summer",
+      "period": "sunset",
+      "theme": "summer-sunset",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-summer-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-summer-sunset.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 320,
+      "season": "summer",
+      "period": "night",
+      "theme": "summer-night",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-summer-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-summer-night.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 320,
+      "season": "autumn",
+      "period": "morning",
+      "theme": "autumn-morning",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-autumn-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-autumn-morning.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 320,
+      "season": "autumn",
+      "period": "day",
+      "theme": "autumn-day",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-autumn-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-autumn-day.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 320,
+      "season": "autumn",
+      "period": "sunset",
+      "theme": "autumn-sunset",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-autumn-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-autumn-a.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 320,
+      "season": "autumn",
+      "period": "night",
+      "theme": "autumn-night",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-autumn-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-autumn-night.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 320,
+      "season": "winter",
+      "period": "morning",
+      "theme": "winter-morning",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-winter-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-winter-morning.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 320,
+      "season": "winter",
+      "period": "day",
+      "theme": "winter-day",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-winter-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-winter-day.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 320,
+      "season": "winter",
+      "period": "sunset",
+      "theme": "winter-sunset",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-winter-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-winter-sunset.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 320,
+      "season": "winter",
+      "period": "night",
+      "theme": "winter-night",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-winter-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-winter.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 390,
+      "season": "spring",
+      "period": "morning",
+      "theme": "spring-morning",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-spring-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-spring.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 390,
+      "season": "spring",
+      "period": "day",
+      "theme": "spring-day",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-spring-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-spring-day.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 390,
+      "season": "spring",
+      "period": "sunset",
+      "theme": "spring-sunset",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-spring-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-spring-sunset.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 390,
+      "season": "spring",
+      "period": "night",
+      "theme": "spring-night",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-spring-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-spring-night.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 390,
+      "season": "summer",
+      "period": "morning",
+      "theme": "summer-morning",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-summer-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-summer-morning.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 390,
+      "season": "summer",
+      "period": "day",
+      "theme": "summer-day",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-summer-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-summer-b.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 390,
+      "season": "summer",
+      "period": "sunset",
+      "theme": "summer-sunset",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-summer-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-summer-sunset.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 390,
+      "season": "summer",
+      "period": "night",
+      "theme": "summer-night",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-summer-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-summer-night.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 390,
+      "season": "autumn",
+      "period": "morning",
+      "theme": "autumn-morning",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-autumn-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-autumn-morning.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 390,
+      "season": "autumn",
+      "period": "day",
+      "theme": "autumn-day",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-autumn-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-autumn-day.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 390,
+      "season": "autumn",
+      "period": "sunset",
+      "theme": "autumn-sunset",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-autumn-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-autumn-a.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 390,
+      "season": "autumn",
+      "period": "night",
+      "theme": "autumn-night",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-autumn-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-autumn-night.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 390,
+      "season": "winter",
+      "period": "morning",
+      "theme": "winter-morning",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-winter-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-winter-morning.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 390,
+      "season": "winter",
+      "period": "day",
+      "theme": "winter-day",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-winter-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-winter-day.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 390,
+      "season": "winter",
+      "period": "sunset",
+      "theme": "winter-sunset",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-winter-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-winter-sunset.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 390,
+      "season": "winter",
+      "period": "night",
+      "theme": "winter-night",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-winter-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-winter.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 430,
+      "season": "spring",
+      "period": "morning",
+      "theme": "spring-morning",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-spring-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-spring.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 430,
+      "season": "spring",
+      "period": "day",
+      "theme": "spring-day",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-spring-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-spring-day.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 430,
+      "season": "spring",
+      "period": "sunset",
+      "theme": "spring-sunset",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-spring-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-spring-sunset.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 430,
+      "season": "spring",
+      "period": "night",
+      "theme": "spring-night",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-spring-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-spring-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-spring-night.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 430,
+      "season": "summer",
+      "period": "morning",
+      "theme": "summer-morning",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-summer-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-summer-morning.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 430,
+      "season": "summer",
+      "period": "day",
+      "theme": "summer-day",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-summer-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-summer-b.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 430,
+      "season": "summer",
+      "period": "sunset",
+      "theme": "summer-sunset",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-summer-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-summer-sunset.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 430,
+      "season": "summer",
+      "period": "night",
+      "theme": "summer-night",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-summer-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-summer-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-summer-night.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 430,
+      "season": "autumn",
+      "period": "morning",
+      "theme": "autumn-morning",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-autumn-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-autumn-morning.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 430,
+      "season": "autumn",
+      "period": "day",
+      "theme": "autumn-day",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-autumn-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-autumn-day.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 430,
+      "season": "autumn",
+      "period": "sunset",
+      "theme": "autumn-sunset",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-autumn-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-autumn-a.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 430,
+      "season": "autumn",
+      "period": "night",
+      "theme": "autumn-night",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-autumn-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-autumn-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-autumn-night.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 430,
+      "season": "winter",
+      "period": "morning",
+      "theme": "winter-morning",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-winter-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-winter-morning.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 430,
+      "season": "winter",
+      "period": "day",
+      "theme": "winter-day",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-winter-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-winter-day.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 430,
+      "season": "winter",
+      "period": "sunset",
+      "theme": "winter-sunset",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-winter-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-winter-sunset.webp\")",
+      "navVisible": true
+    },
+    {
+      "width": 430,
+      "season": "winter",
+      "period": "night",
+      "theme": "winter-night",
+      "overflow": 0,
+      "icons": [
+        {
+          "src": "./assets/feature-winter-bath.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-book.png",
+          "ok": true
+        },
+        {
+          "src": "./assets/feature-winter-store.png",
+          "ok": true
+        }
+      ],
+      "scene": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-winter.webp\")",
+      "navVisible": true
+    }
+  ],
+  "errors": []
+}

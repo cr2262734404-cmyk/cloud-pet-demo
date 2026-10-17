@@ -23,7 +23,7 @@ body[data-period=night][data-season=autumn]{--bg:#352c27;--glass:rgba(91,73,58,.
 @supports not (backdrop-filter:blur(1px)){.glass,#bottom-nav{background-color:var(--bg)}}
 @keyframes breathe{50%{opacity:.4;transform:translateY(-5px)}}
 .original-icon{background:none!important;object-fit:contain}.nav-original{width:31px;height:31px;object-fit:contain}.nav-item:has(.nav-original){padding-top:2px;padding-bottom:2px;gap:2px}.nav-item:has(.nav-original) span{font-weight:600}
-body[data-season=summer] .original-icon,body[data-season=summer] .nav-original{filter:hue-rotate(298deg) saturate(.83)}
+
 .locked-home .home-booking:before{content:'';position:absolute;inset:0;background-image:var(--scene-image);background-size:100% auto;background-position:center bottom;filter:blur(14px);opacity:.18;z-index:-1}.locked-home .home-booking{isolation:isolate}
 
 body[data-season=spring][data-period=morning] .locked-home .home-scene:before,body[data-season=summer][data-period=day] .locked-home .home-scene:before,body[data-season=autumn][data-period=sunset] .locked-home .home-scene:before,body[data-season=winter][data-period=night] 
@@ -34,3 +34,23 @@ body[data-season=spring][data-period=morning] .locked-home .home-scene:before,bo
 html{scroll-padding-top:60px;scroll-padding-bottom:116px}button,input,select,textarea,a{scroll-margin-top:64px;scroll-margin-bottom:116px}
 
 .world-review{display:block;width:100%;height:auto;border-radius:20px;margin:12px 0 22px}
+
+/* Approved four-season illustration family and stronger material continuity. */
+.feature-art{object-fit:contain;filter:drop-shadow(0 4px 6px color-mix(in srgb,var(--accent) 18%,transparent))}
+.customer-page,.business-page{background-image:radial-gradient(ellipse at 90% 0%,color-mix(in srgb,var(--accent-soft) 45%,transparent),transparent 43%)}
+body[data-season=spring]{--glass-edge:#d9f3ff;--button-glow:#9ed3fb}
+body[data-season=summer]{--glass-edge:#e1ffe6;--button-glow:#aee8aa}
+body[data-season=autumn]{--glass-edge:#fff4d2;--button-glow:#f7d891}
+body[data-season=winter]{--glass-edge:#edfaff;--button-glow:#b5dfff}
+body[data-period=night]{--glass-edge:#acd5e9;--button-glow:#7cbddf}
+body[data-period=night][data-season=summer]{--glass-edge:#a7d9c4;--button-glow:#91d5a8}
+body[data-period=night][data-season=autumn]{--glass-edge:#e5cfa7;--button-glow:#d5ad71}
+:is(.customer-page,.business-page) .glass{border-color:color-mix(in srgb,var(--glass-edge) 74%,white);box-shadow:var(--shadow),inset 0 1px 2px #fffa,inset 0 -2px 5px color-mix(in srgb,var(--glass-edge) 36%,transparent)}
+.button.primary{box-shadow:inset 0 1px 3px #fff9,0 6px 17px color-mix(in srgb,var(--button-glow) 47%,transparent)}
+:is(.customer-page,.business-page) .page-head{border-radius:0 0 22px 22px}
+:is(.customer-page,.business-page) .page-head h1{color:var(--ink)}
+:is(.customer-page,.business-page) .card:not(.poster-preview){border-color:var(--glass-edge)}
+.tag.success{background:color-mix(in srgb,var(--accent-soft) 68%,#ddf5e6);color:var(--ink)}
+body[data-period=night] .tag.success{background:var(--accent-soft);color:var(--ink)}
+.nav-item.active{border:1px solid color-mix(in srgb,var(--glass-edge) 80%,white)}
+@media(max-width:360px){.feature-art{max-width:76px!important;max-height:76px!important}}

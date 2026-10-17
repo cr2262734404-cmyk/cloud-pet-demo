@@ -55,7 +55,7 @@ function home(ctx){
  return `<div class="customer-home locked-home">
  <section class="home-hero">
   <div class="scene home-scene" aria-hidden="true"></div>
-  <div class="home-brand row"><span class="home-logo">${icon(ctx,'paw',19)}</span><span class="home-brand-text"><strong>${e(ctx,ctx.state.store.name)}</strong></span><button type="button" class="home-capsule" data-action="c.home-menu" aria-label="打开个人中心菜单"><b>•••</b><i></i><span></span></button></div>
+  <div class="home-brand row"><span class="home-logo"><img src="./assets/logo.svg" alt=""></span><span class="home-brand-text"><strong>${e(ctx,ctx.state.store.name)}</strong></span><button type="button" class="home-capsule" data-action="c.home-menu" aria-label="打开个人中心菜单"><b>•••</b><i></i><span></span></button></div>
   <div class="home-welcome"><span class="glass season-label">${icon(ctx,period==='night'?'moon':'sun',15)} ${seasonNames[season]} · ${periodNames[period]}</span><p>${greetings[period]||'你好'}，${e(ctx,p?.name||'小可爱')}</p><h1>${headlines[season]||headlines.spring}</h1></div>
  </section>
  <div class="home-content">

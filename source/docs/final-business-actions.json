@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-17T21:15:45.278Z",
+  "browser": "Chrome mobile emulation 390px",
+  "realDeviceTest": false,
+  "checks": [
+    {
+      "name": "owner-order-filter",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "owner-pet-filter",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "analytics-service-volume",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "analytics-month-drilldown",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "staff-service-filters",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "staff-settings-persist",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "staff-settings-reset",
+      "pass": true,
+      "details": ""
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "spring": {
+    "source": "f1b94c62c9739dfb5909d90767048376.png",
+    "sha256": "5befad0625957cd9d2305b14fb7f964aedf1f2b4c16aa05138254e5021705d20",
+    "icons": {
+      "bath": {
+        "file": "feature-spring-bath.png",
+        "box": [
+          33,
+          1160,
+          294,
+          1360
+        ],
+        "size": [
+          257,
+          187
+        ],
+        "retainedFraction": 0.357
+      },
+      "book": {
+        "file": "feature-spring-book.png",
+        "box": [
+          336,
+          1163,
+          548,
+          1360
+        ],
+        "size": [
+          186,
+          178
+        ],
+        "retainedFraction": 0.523
+      },
+      "store": {
+        "file": "feature-spring-store.png",
+        "box": [
+          579,
+          1148,
+          825,
+          1366
+        ],
+        "size": [
+          240,
+          218
+        ],
+        "retainedFraction": 0.56
+      }
+    }
+  },
+  "summer": {
+    "source": "05dd24272bb3e0a0d191010147cd3c1f.png",
+    "sha256": "c92620d33fca4d9d6405776e6e65227e10b5670172bdb9f48e2a59798c6b1b89",
+    "icons": {
+      "bath": {
+        "file": "feature-summer-bath.png",
+        "box": [
+          40,
+          1188,
+          308,
+          1380
+        ],
+        "size": [
+          268,
+          191
+        ],
+        "retainedFraction": 0.684
+      },
+      "book": {
+        "file": "feature-summer-book.png",
+        "box": [
+          345,
+          1194,
+          546,
+          1380
+        ],
+        "size": [
+          201,
+          184
+        ],
+        "retainedFraction": 0.627
+      },
+      "store": {
+        "file": "feature-summer-store.png",
+        "box": [
+          632,
+          1199,
+          842,
+          1380
+        ],
+        "size": [
+          210,
+          179
+        ],
+        "retainedFraction": 0.716
+      }
+    }
+  },
+  "autumn": {
+    "source": "4b92ed6fadf526c0eaed0e1e6f17ed7a.png",
+    "sha256": "775018de6c1b7c1fc4f9eeddb481a2831816a46afc5d2af55e0edeced01c9544",
+    "icons": {
+      "bath": {
+        "file": "feature-autumn-bath.png",
+        "box": [
+          46,
+          1168,
+          318,
+          1340
+        ],
+        "size": [
+          272,
+          172
+        ],
+        "retainedFraction": 0.845
+      },
+      "book": {
+        "file": "feature-autumn-book.png",
+        "box": [
+          377,
+          1175,
+          556,
+          1340
+        ],
+        "size": [
+          179,
+          165
+        ],
+        "retainedFraction": 0.871
+      },
+      "store": {
+        "file": "feature-autumn-store.png",
+        "box": [
+          652,
+          1181,
+          846,
+          1340
+        ],
+        "size": [
+          194,
+          159
+        ],
+        "retainedFraction": 0.636
+      }
+    }
+  },
+  "winter": {
+    "source": "4f6c76809cd3673a111548514d081d14.png",
+    "sha256": "44345d259786c9693ca270227483381251ac591da70073269d92e22279c044d7",
+    "icons": {
+      "bath": {
+        "file": "feature-winter-bath.png",
+        "box": [
+          64,
+          1143,
+          310,
+          1323
+        ],
+        "size": [
+          244,
+          180
+        ],
+        "retainedFraction": 0.461
+      },
+      "book": {
+        "file": "feature-winter-book.png",
+        "box": [
+          383,
+          1148,
+          548,
+          1323
+        ],
+        "size": [
+          165,
+          174
+        ],
+        "retainedFraction": 0.341
+      },
+      "store": {
+        "file": "feature-winter-store.png",
+        "box": [
+          639,
+          1152,
+          858,
+          1323
+        ],
+        "size": [
+          188,
+          135
+        ],
+        "retainedFraction": 0.19
+      }
+    }
+  }
+}

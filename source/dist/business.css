@@ -85,3 +85,12 @@ body[data-period="night"] .biz-status-grid button,body[data-period="night"] .biz
 body[data-period="night"] .biz-shortcut-icon,body[data-period="night"] .biz-alert-list>button>svg,body[data-period="night"] .biz-status-grid svg,body[data-period="night"] .biz-care-note>strong,body[data-period="night"] .biz-profile-symbol{color:var(--accent)}
 @media(max-width:360px){.biz-world-copy{padding:17px 16px 19px}.biz-world-copy h1{font-size:22px}.biz-world-scene{aspect-ratio:1.3}.biz-world-store{font-size:12px;left:12px;top:23px}.biz-season-pill{right:10px;padding:6px 9px}.biz-stat-grid{gap:4px}.biz-stat-grid span{font-size:10px}.biz-stat-grid strong{font-size:25px}.biz-duo-links,.biz-tool-grid{gap:9px}.biz-shortcut{padding:12px 9px;grid-template-columns:27px minmax(0,1fr);gap:2px 6px}.biz-shortcut-icon{width:27px}.biz-shortcut strong{font-size:12px}.biz-shortcut small{font-size:10px}.biz-alert-list{padding:0 13px}.biz-alert-list>button{gap:9px}.biz-alert-list strong{font-size:13px}.biz-revenue-row>div>strong{font-size:26px}.biz-chart{gap:4px}.biz-chart-value{font-size:10px}.biz-chart-month{font-size:10px;padding:5px}.biz-profile-symbol{width:64px;height:64px}}
 @media(prefers-reduced-motion:reduce){.biz-chart-bar{transition:none}}
+
+/* Pet-branded dimensional art on primary owner and staff entrances. */
+.biz-shortcut{grid-template-columns:50px minmax(0,1fr);min-height:85px;background-image:linear-gradient(135deg,color-mix(in srgb,var(--accent-soft) 20%,transparent),transparent 70%)}
+.biz-shortcut-icon{width:48px;height:48px;border-radius:16px;background:linear-gradient(145deg,#ffffffb8,var(--accent-soft));border:1px solid var(--glass-edge);box-shadow:inset 0 1px 2px #fff,0 3px 9px color-mix(in srgb,var(--accent) 16%,transparent)}
+.biz-shortcut-art{background:transparent;border:0;box-shadow:none}.biz-shortcut-art .feature-art{width:48px!important;height:48px!important}
+.biz-tool-grid .biz-shortcut{grid-template-columns:50px minmax(0,1fr);min-height:79px}
+@media(max-width:360px){.biz-shortcut,.biz-tool-grid .biz-shortcut{grid-template-columns:43px minmax(0,1fr)}.biz-shortcut-icon{width:42px;height:42px}.biz-shortcut-art .feature-art{width:42px!important;height:42px!important}}
+
+.biz-world-store{display:flex;align-items:center;gap:7px;max-width:52%}.biz-world-store img{width:26px;height:26px;filter:drop-shadow(0 1px 3px #143d6170)}

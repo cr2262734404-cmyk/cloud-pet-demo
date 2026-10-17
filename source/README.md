@@ -1,5 +1,7 @@
 # 云朵宠物 · 商业 V1 三端 H5 Demo
 
+> 本文件包含早期发布记录，其中“48 个文件”“提交 14f2563”是当时版本的历史数据。新版准确状态见仓库根目录 [`FINAL_VALIDATION.md`](../FINAL_VALIDATION.md)。从 GitHub 克隆后先在仓库根目录运行 `node RESTORE_SOURCE.mjs` 恢复 `source/dist/assets/`，再进入 `source/` 启动或构建。
+
 可交互的手机优先演示，包含顾客、老板、员工三端，以及预约、护理报告、机会跟进、模拟提醒、礼物、海报和简化消费归因。当前是 H5 原型，不是已审核发布的微信小程序。
 
 **已上线：[打开云朵宠物 H5](https://cr2262734404-cmyk.github.io/cloud-pet-demo/)。** GitHub Pages 部署成功；2026-10-18 核验首页及全部 48 个发布文件均返回 200，内容与发布包一致。可在手机浏览器打开上述 HTTPS 链接，或使用[访问二维码](dist/assets/access-qr.png)。

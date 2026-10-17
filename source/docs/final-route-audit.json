@@ -1,0 +1,406 @@
+{
+  "at": "2026-10-17T21:09:34.753Z",
+  "method": "Chrome mobile emulation 390×844 DPR2, 54 route load and geometry, no physical device",
+  "audit": [
+    {
+      "page": "home",
+      "title": "一起，去追风。",
+      "role": "customer",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "services",
+      "title": "服务项目",
+      "role": "customer",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "service",
+      "id": "s1",
+      "title": "洗护造型",
+      "role": "customer",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "select-pet",
+      "title": "这次，陪谁来？",
+      "role": "customer",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "booking",
+      "title": "约一个好时光",
+      "role": "customer",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "confirm",
+      "title": "确认预约",
+      "role": "customer",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "success",
+      "id": "a1",
+      "title": "期待和你见面",
+      "role": "customer",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "appointments",
+      "title": "我的预约",
+      "role": "customer",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "appointment",
+      "id": "a1",
+      "title": "预约详情",
+      "role": "customer",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "pets",
+      "title": "我的宠物",
+      "role": "customer",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "pet",
+      "id": "p1",
+      "title": "糯米的小档案",
+      "role": "customer",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "pet-edit",
+      "id": "p1",
+      "title": "编辑宠物档案",
+      "role": "customer",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "reports",
+      "title": "护理手记",
+      "role": "customer",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "report",
+      "id": "r1",
+      "title": "今天的乖，我们都记住了。",
+      "role": "customer",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "gift",
+      "id": "g1",
+      "title": "送给你的小可爱",
+      "role": "customer",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "contact",
+      "title": "来店里，坐一坐",
+      "role": "customer",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "profile",
+      "title": "我的陪伴日常",
+      "role": "customer",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "messages",
+      "title": "消息与订阅",
+      "role": "customer",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "today",
+      "title": "今天，也照顾好生意",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "orders",
+      "title": "每一笔服务，都有着落",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "pet-overview",
+      "title": "每一只，都有自己的档案",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "analytics",
+      "title": "把每一次进步，看清楚",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "radar",
+      "title": "营业额机会雷达",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "tasks",
+      "title": "今日 Top 5",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "opportunity",
+      "title": "糯米的蓬松日，已经约好",
+      "id": "o1",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "contact",
+      "title": "温柔地，打个招呼",
+      "id": "o2",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "reminders",
+      "title": "把惦记，交给好规则",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "reminder-rule",
+      "title": "新建提醒规则",
+      "id": "new",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "reminder-logs",
+      "title": "每一次提醒，都有记录",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "schedule",
+      "title": "把好时光，安排妥当",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "business-appointment",
+      "title": "预约与护理安排",
+      "id": "a1",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "customers",
+      "title": "熟悉的名字，认真记着",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "customer-detail",
+      "title": "林女士",
+      "id": "c1",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "posters",
+      "title": "把门店的好，分享出去",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "reports",
+      "title": "每一份照顾，都有回声",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "results",
+      "title": "每一步用心，都有回响",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "catalog",
+      "title": "好服务，和好伙伴",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "settings",
+      "title": "这家店，有自己的名字",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "business-booking",
+      "title": "留一个舒服的时段",
+      "id": "o2",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "customer-edit",
+      "title": "编辑顾客",
+      "id": "c1",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "business-pet-edit",
+      "title": "编辑 糯米 的档案",
+      "id": "p1",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "service-edit",
+      "title": "编辑服务项目",
+      "id": "s1",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "employee-edit",
+      "title": "编辑护理伙伴",
+      "id": "e1",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "business-report",
+      "title": "糯米的这一份乖",
+      "id": "r1",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "gift",
+      "title": "给 糯米 的小心意",
+      "id": "r1",
+      "role": "owner",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "work",
+      "title": "小夏，今天也辛苦啦",
+      "role": "staff",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "my-services",
+      "title": "我的预约与服务单",
+      "role": "staff",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "staff-profile",
+      "title": "我的工作资料",
+      "role": "staff",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "staff-settings",
+      "title": "用顺手的方式，记录温柔",
+      "role": "staff",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "task",
+      "title": "这一位，交给你照顾",
+      "id": "a1",
+      "role": "staff",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "complete",
+      "title": "这次护理还未开始",
+      "id": "a2",
+      "role": "staff",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "history",
+      "title": "我照顾过的小伙伴",
+      "role": "staff",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "tools",
+      "title": "顺手，留下更多温暖",
+      "role": "staff",
+      "overflow": 0,
+      "broken": []
+    },
+    {
+      "page": "followups",
+      "title": "熟悉的小伙伴，温柔跟进",
+      "role": "staff",
+      "overflow": 0,
+      "broken": []
+    }
+  ],
+  "errors": []
+}
