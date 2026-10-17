@@ -1,0 +1,254 @@
+{
+  "updatedAt": "2026-10-17T20:24:50.699Z",
+  "customer": [
+    {
+      "page": "home",
+      "title": "C01 顾客首页"
+    },
+    {
+      "page": "services",
+      "title": "C02 服务项目"
+    },
+    {
+      "page": "service",
+      "id": "s1",
+      "title": "C03 服务详情"
+    },
+    {
+      "page": "select-pet",
+      "title": "C04 选择宠物"
+    },
+    {
+      "page": "booking",
+      "title": "C05 选择时段"
+    },
+    {
+      "page": "confirm",
+      "title": "C06 预约确认"
+    },
+    {
+      "page": "success",
+      "id": "a1",
+      "title": "C07 预约成功"
+    },
+    {
+      "page": "appointments",
+      "title": "C08 我的预约"
+    },
+    {
+      "page": "appointment",
+      "id": "a1",
+      "title": "C09 预约详情"
+    },
+    {
+      "page": "pets",
+      "title": "C10 我的宠物"
+    },
+    {
+      "page": "pet",
+      "id": "p1",
+      "title": "C11 宠物档案"
+    },
+    {
+      "page": "pet-edit",
+      "id": "p1",
+      "title": "C12 编辑宠物"
+    },
+    {
+      "page": "reports",
+      "title": "C13 护理手记"
+    },
+    {
+      "page": "report",
+      "id": "r1",
+      "title": "C14 护理详情"
+    },
+    {
+      "page": "gift",
+      "id": "g1",
+      "title": "C15 专属礼物"
+    },
+    {
+      "page": "contact",
+      "title": "C16 联系门店"
+    },
+    {
+      "page": "profile",
+      "title": "C17 个人中心"
+    },
+    {
+      "page": "messages",
+      "title": "C18 消息与订阅"
+    }
+  ],
+  "business": [
+    {
+      "page": "today",
+      "title": "O01 今日经营工作台"
+    },
+    {
+      "page": "orders",
+      "title": "O18 订单管理"
+    },
+    {
+      "page": "pet-overview",
+      "title": "O19 全店宠物总览"
+    },
+    {
+      "page": "analytics",
+      "title": "O20 数据概览与复购趋势"
+    },
+    {
+      "page": "radar",
+      "title": "O02 机会雷达"
+    },
+    {
+      "page": "tasks",
+      "title": "O03 今日 Top5"
+    },
+    {
+      "page": "opportunity",
+      "title": "O04 机会详情",
+      "id": "o1"
+    },
+    {
+      "page": "contact",
+      "title": "O05 顾客联系",
+      "id": "o2"
+    },
+    {
+      "page": "reminders",
+      "title": "O06 提醒中心"
+    },
+    {
+      "page": "reminder-rule",
+      "title": "O07 提醒规则",
+      "id": "new"
+    },
+    {
+      "page": "reminder-logs",
+      "title": "O08 提醒日志"
+    },
+    {
+      "page": "schedule",
+      "title": "O09 预约排期"
+    },
+    {
+      "page": "business-appointment",
+      "title": "O10 预约详情",
+      "id": "a1"
+    },
+    {
+      "page": "customers",
+      "title": "O11 客户管理"
+    },
+    {
+      "page": "customer-detail",
+      "title": "O12 客户详情",
+      "id": "c1"
+    },
+    {
+      "page": "posters",
+      "title": "O13 营销海报"
+    },
+    {
+      "page": "reports",
+      "title": "O14 护理报告"
+    },
+    {
+      "page": "results",
+      "title": "O15 经营结果"
+    },
+    {
+      "page": "catalog",
+      "title": "O16 服务与员工"
+    },
+    {
+      "page": "settings",
+      "title": "O17 门店设置"
+    },
+    {
+      "page": "business-booking",
+      "title": "门店代客预约",
+      "id": "o2"
+    },
+    {
+      "page": "customer-edit",
+      "title": "编辑顾客",
+      "id": "c1"
+    },
+    {
+      "page": "business-pet-edit",
+      "title": "编辑宠物",
+      "id": "p1"
+    },
+    {
+      "page": "service-edit",
+      "title": "编辑服务",
+      "id": "s1"
+    },
+    {
+      "page": "employee-edit",
+      "title": "编辑员工",
+      "id": "e1"
+    },
+    {
+      "page": "business-report",
+      "title": "护理报告审核",
+      "id": "r1"
+    },
+    {
+      "page": "gift",
+      "title": "头像礼物制作",
+      "id": "r1"
+    },
+    {
+      "page": "work",
+      "title": "S01 员工工作台",
+      "role": "staff"
+    },
+    {
+      "page": "my-services",
+      "title": "S07 我的预约与服务单",
+      "role": "staff"
+    },
+    {
+      "page": "staff-profile",
+      "title": "S08 员工个人中心",
+      "role": "staff"
+    },
+    {
+      "page": "staff-settings",
+      "title": "S09 员工基础设置",
+      "role": "staff"
+    },
+    {
+      "page": "task",
+      "title": "S02 护理任务",
+      "id": "a1",
+      "role": "staff"
+    },
+    {
+      "page": "complete",
+      "title": "S03 极简服务收尾",
+      "id": "a2",
+      "role": "staff"
+    },
+    {
+      "page": "history",
+      "title": "S04 我的护理手记",
+      "role": "staff"
+    },
+    {
+      "page": "tools",
+      "title": "S05 员工工具",
+      "role": "staff"
+    },
+    {
+      "page": "followups",
+      "title": "S06 授权客户跟进",
+      "role": "staff"
+    }
+  ],
+  "note": "主要业务路由；全局角色/主题面板、演示说明和设备记录页另计。"
+}

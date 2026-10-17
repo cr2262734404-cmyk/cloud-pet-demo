@@ -1,0 +1,110 @@
+{
+  "version": "16-scene extension regression",
+  "generatedAt": "2026-10-17T20:25:50.869Z",
+  "environment": "Chrome desktop mobile viewport emulation, independent customer-v2 session, static local mode. Not Android/iPhone physical device testing.",
+  "observed": {
+    "appointment": {
+      "amount": 168,
+      "cancelReason": "新版场景演示回归完成，取消本地测试预约",
+      "cancelledAt": "2026-10-17T20:22:09.579Z",
+      "createdAt": "2026-10-17T20:21:03.173Z",
+      "customerId": "c1",
+      "date": "2026-10-21",
+      "employeeId": "e1",
+      "id": "booking-47e4a817",
+      "notes": "新场景版本独立回归样本：预约后取消",
+      "opportunityId": "",
+      "petId": "p1",
+      "serviceId": "s1",
+      "status": "cancelled",
+      "time": "09:00"
+    },
+    "brokenImages": [],
+    "exportPreview": {
+      "naturalHeight": 1577,
+      "naturalWidth": 1080,
+      "srcScheme": "blob"
+    },
+    "httpFailures": [],
+    "mode": "local",
+    "persistedAppointment": true,
+    "storeId": "cloud",
+    "theme": {
+      "period": "day",
+      "season": "summer"
+    },
+    "url": "http://127.0.0.1:4174/cloud-pet-demo/?season=summer&period=day#customer/report/r1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "viewport": {
+      "height": 844,
+      "width": 390
+    }
+  },
+  "layout": {
+    "checks": 54,
+    "widths": [
+      320,
+      390,
+      430
+    ],
+    "routes": 18,
+    "overflow": [],
+    "brokenImages": [],
+    "evidence": "outputs/screenshots/customer-v2/route-layout-checks.json"
+  },
+  "flow": {
+    "route": "home > select-pet > booking > confirm > success > appointment > cancel dialog > cancelled > reload",
+    "appointmentId": "booking-47e4a817",
+    "pet": "p1",
+    "service": "s1",
+    "date": "2026-10-21",
+    "time": "09:00",
+    "expectedStatus": "cancelled",
+    "passed": true,
+    "interaction": "Clicked actual UI buttons, typed notes, checked confirmation checkbox. Date input used value + standard change event after CLI fill left the Chinese segmented native date field empty. No engine mutations were invoked directly."
+  },
+  "download": {
+    "actualAnchorClick": true,
+    "localFile": "outputs/screenshots/customer-v2/report-native-download.png",
+    "bytes": 1959434,
+    "sha256": "69054462a5d9ccbd3d80018f31bcdf426ae954cae3b821882187e9fb3bd46067",
+    "dimensions": [
+      1080,
+      1577
+    ],
+    "preview": {
+      "naturalHeight": 1577,
+      "naturalWidth": 1080,
+      "srcScheme": "blob"
+    }
+  },
+  "browserErrors": "",
+  "screenshots": [
+    "outputs/screenshots/customer-v2/C01-home.png",
+    "outputs/screenshots/customer-v2/C02-services.png",
+    "outputs/screenshots/customer-v2/C03-service.png",
+    "outputs/screenshots/customer-v2/C04-select-pet.png",
+    "outputs/screenshots/customer-v2/C05-booking.png",
+    "outputs/screenshots/customer-v2/C06-confirm.png",
+    "outputs/screenshots/customer-v2/C07-success.png",
+    "outputs/screenshots/customer-v2/C08-appointments.png",
+    "outputs/screenshots/customer-v2/C09-appointment.png",
+    "outputs/screenshots/customer-v2/C10-pets.png",
+    "outputs/screenshots/customer-v2/C11-pet.png",
+    "outputs/screenshots/customer-v2/C12-pet-edit.png",
+    "outputs/screenshots/customer-v2/C13-reports.png",
+    "outputs/screenshots/customer-v2/C14-report.png",
+    "outputs/screenshots/customer-v2/C15-gift.png",
+    "outputs/screenshots/customer-v2/C16-contact.png",
+    "outputs/screenshots/customer-v2/C17-profile.png",
+    "outputs/screenshots/customer-v2/C18-messages.png",
+    "outputs/screenshots/customer-v2/flow-booking-success.png",
+    "outputs/screenshots/customer-v2/flow-cancelled-reloaded.png",
+    "outputs/screenshots/customer-v2/flow-report-export-modal.png"
+  ],
+  "limitations": [
+    "No physical Android/iPhone devices controlled; desktop responsive checks only.",
+    "Core regression fixed summer/day. Full 16-scene theme matrix performed separately by root."
+  ],
+  "codeChangesRequired": false
+}

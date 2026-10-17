@@ -1,0 +1,1 @@
+import {readFileSync,writeFileSync} from 'node:fs';let s=readFileSync('work/business-hours-qa.mjs','utf8').replaceAll('127.0.0.1:4173','127.0.0.1:4174').replaceAll('business-hours-browser-report.json','business-hours-static-report.json').replaceAll('owner-hours-10-17.png','owner-hours-static-10-17.png');writeFileSync('work/business-hours-static-qa.mjs',s);

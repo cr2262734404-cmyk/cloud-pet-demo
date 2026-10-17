@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-18",
+  "status": "saved-at-user-requested-stop",
+  "scope": "Owner and staff additions only; this version is not final acceptance or public deployment confirmation",
+  "files": ["dist/business.js", "dist/business.css"],
+  "addedRoutes": {
+    "owner": ["orders", "pet-overview", "analytics"],
+    "staff": ["my-services", "staff-profile", "staff-settings"]
+  },
+  "implementation": [
+    "Owner homepage now shows today's appointments, arrived waiting, confirmed revenue, orders, customers, pets, staff progress, operating reminders and shared seasonal scene",
+    "Staff homepage now shows own daily tasks, pets, notes, appointments, arrival/start/completion controls and quick care record access",
+    "Owner orders filter, global pet search/filter, six-month confirmed-consumption revenue/service/repurchase statistics with source and small-sample definitions",
+    "Staff profile, own service list filters and device/store-scoped local preferences; preferences prefill only new care reports",
+    "All existing business API actions and scoped state remain in use; no new engine actions"
+  ],
+  "automatedChecks": {
+    "syntax": "passed",
+    "seedRouteRender": {"passed": 36, "script": "work/business-smoke.mjs"},
+    "emptyRouteRender": {"passed": 36, "script": "work/business-empty.mjs"},
+    "existingEngineActionRegression": {"passed": 19, "script": "work/business-actions.mjs"},
+    "htmlCheck": {"reportedIssues": [], "script": "work/business-html-check.mjs"},
+    "newAnalyticsAndPreferencesTests": {"passed": 15, "script": "work/business-v2-tests.mjs", "covers": ["no invented historical months", "confirmed amount only", "unique monthly returning customers", "same-month repeat and older history", "input-order independence", "appointment customer fallback", "preference persistence/store isolation/reset", "new report defaults versus existing reports", "staff filters", "owner financial route denied to staff", "arrived schedule shortcut", "protected pet filter"]}
+  },
+  "browser": {
+    "session": "cloud-business-v2",
+    "type": "Windows desktop Chrome at mobile viewport; not Android/iPhone hardware",
+    "url": "http://127.0.0.1:4174/cloud-pet-demo/",
+    "viewport": {"width": 390, "height": 844},
+    "passed": [
+      "Owner home rendered with visible open seasonal landscape and pet; title outside image",
+      "Home arrived-waiting button selected today's arrived-only schedule: 1 appointment",
+      "Home 小夏 progress button selected 小夏 schedule with all states: 2 appointments",
+      "Analytics seed confirmed revenue months rendered: July 168, September 266, October 168",
+      "Repurchase tab click changed heading and chart labels; missing months showed em dash, seeded recorded months 0%"
+    ],
+    "screenshot": "../../screenshots/business-v2/owner-home-390.png",
+    "scheduleLayoutMeasurement": {"innerWidth": 390, "documentScrollWidth": 390},
+    "notCompleted": ["320 and 430 width checks", "new staff pages browser interactions", "staff preferences browser save/reload/reset", "new order and global-pet filters browser checks", "analytics month-click and service-volume tab", "full new-page visual review", "final build or public deployment check"],
+    "toolNotes": ["Initial 4173 connection refused because prior server was intentionally closed; QA used root-rebuilt static preview 4174", "First unquoted PowerShell @ref click was rejected by CLI as missing arguments; quoting the reference succeeded", "Latest business.js includes small text-escaping and predicate-readability fixes after root's static copy; rebuild needed before continuation"]
+  },
+  "hardware": "No actual Android or iPhone tests performed in this task; no device acceptance pass records saved",
+  "remaining": "Resume from these saved files and validate pending widths/pages before claiming acceptance. Do not restart all earlier passed workflows."
+}

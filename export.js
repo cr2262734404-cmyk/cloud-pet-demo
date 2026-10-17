@@ -30,4 +30,3 @@ export async function downloadPoster({title='云朵宠物',subtitle='',pet,foote
  g.fillStyle=colors[2];g.globalAlpha=.66;g.font='25px sans-serif';g.fillText(kind==='gift'?'模拟主题画框 · 原照片保真展示':'H5 演示 · 模拟记录，非真实服务凭证',76,c.height-65);
  const blob=await new Promise(r=>c.toBlob(r,'image/png'));if(!blob)throw new Error('图片导出失败，请稍后重试');const url=URL.createObjectURL(blob);window.dispatchEvent(new CustomEvent('image-export',{detail:{url,name:`云朵宠物-${title}.png`}}));return {url,blob,width:c.width,height:c.height};
 }
-

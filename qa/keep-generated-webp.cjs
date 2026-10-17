@@ -1,0 +1,1 @@
+const fs=require('node:fs');let s=fs.readFileSync('work/prepare-publish.cjs','utf8');s=s.replace('/^(locked-(spring|winter|summer-[ab]|autumn-[ab])|world-(spring|summer|autumn|winter)-(morning|day|sunset|night))\\.webp$/','/^locked-(spring|winter|summer-[ab]|autumn-[ab])\\.webp$/');fs.writeFileSync('work/prepare-publish.cjs',s);

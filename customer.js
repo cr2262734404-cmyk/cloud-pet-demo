@@ -49,7 +49,7 @@ function appointmentCard(ctx,a){const p=petOf(ctx,a.petId),s=serviceOf(ctx,a),st
 function home(ctx){
  const p=ownPets(ctx).find(x=>!x.deceased), report=ownReports(ctx).slice().sort((a,b)=>b.date.localeCompare(a.date))[0];
  const {season='spring',period='morning'}=ctx.theme||{};
- const headlines={spring:'一起，去撒欢。',summer:'一起，去追风。',autumn:'把秋天，慢慢收藏。',winter:period==='night'?'把温暖，留给今晚。':'今天，也很温暖。'};
+ const headlines={spring:period==='night'?'晚风里，安心相伴。':'一起，去撒欢。',summer:period==='night'?'把清凉，留给晚风。':'一起，去追风。',autumn:period==='night'?'把秋夜，轻轻收藏。':'把秋天，慢慢收藏。',winter:period==='night'?'把温暖，留给今晚。':'今天，也很温暖。'};
  const upcoming=ownAppointments(ctx).find(x=>activeStatuses.includes(x.status));
  const reportPet=report?petOf(ctx,report.petId):null, reportAppt=report?find(ctx.state.appointments,report.appointmentId):null, reportStaff=report?find(ctx.state.employees,report.employeeId):null;
  return `<div class="customer-home locked-home">
@@ -168,7 +168,6 @@ export function mountCustomer(ctx){
  });
  if(ctx.page==='report'){const r=find(ownReports(ctx),ctx.id);const key=`${ctx.storeId}:${r?.id}`;if(r&&!r.viewed&&!reportsBeingViewed.has(key)){reportsBeingViewed.add(key);Promise.resolve(ctx.mutate('report.view',{id:r.id})).catch(()=>{}).finally(()=>reportsBeingViewed.delete(key));}}
 }
-
 
 
 

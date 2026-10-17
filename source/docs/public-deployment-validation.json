@@ -1,0 +1,353 @@
+{
+  "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/",
+  "checkedAt": "2026-10-17T19:53:01.792Z",
+  "commit": "14f25630e4dc9c0300b3812d0412e33d14b47a92",
+  "mode": "static-localStorage",
+  "runs": [
+    {
+      "id": 39064222074,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cr2262734404-cmyk/cloud-pet-demo/actions/runs/39064222074"
+    }
+  ],
+  "results": [
+    {
+      "file": ".nojekyll",
+      "status": 200,
+      "bytes": 0,
+      "contentType": "application/octet-stream",
+      "matches": true
+    },
+    {
+      "file": "404.html",
+      "status": 200,
+      "bytes": 1484,
+      "contentType": "text/html; charset=utf-8",
+      "matches": true
+    },
+    {
+      "file": "assets/access-qr.png",
+      "status": 200,
+      "bytes": 5922,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-autumn-a-bath.png",
+      "status": 200,
+      "bytes": 30945,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-autumn-a-book.png",
+      "status": 200,
+      "bytes": 19025,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-autumn-a-contact.png",
+      "status": 200,
+      "bytes": 20163,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-autumn-a-nav-calendar.png",
+      "status": 200,
+      "bytes": 6240,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-autumn-a-nav-home.png",
+      "status": 200,
+      "bytes": 7590,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-autumn-a-nav-pet.png",
+      "status": 200,
+      "bytes": 9766,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-autumn-a.webp",
+      "status": 200,
+      "bytes": 184282,
+      "contentType": "image/webp",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-autumn-b.webp",
+      "status": 200,
+      "bytes": 366330,
+      "contentType": "image/webp",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-spring-bath.png",
+      "status": 200,
+      "bytes": 31467,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-spring-book.png",
+      "status": 200,
+      "bytes": 15654,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-spring-contact.png",
+      "status": 200,
+      "bytes": 19406,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-spring-nav-calendar.png",
+      "status": 200,
+      "bytes": 6197,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-spring-nav-home.png",
+      "status": 200,
+      "bytes": 7494,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-spring-nav-pet.png",
+      "status": 200,
+      "bytes": 9172,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-spring.webp",
+      "status": 200,
+      "bytes": 177164,
+      "contentType": "image/webp",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-summer-a-bath.png",
+      "status": 200,
+      "bytes": 31834,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-summer-a-book.png",
+      "status": 200,
+      "bytes": 19582,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-summer-a-contact.png",
+      "status": 200,
+      "bytes": 20657,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-summer-a-nav-calendar.png",
+      "status": 200,
+      "bytes": 6351,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-summer-a-nav-home.png",
+      "status": 200,
+      "bytes": 8020,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-summer-a-nav-pet.png",
+      "status": 200,
+      "bytes": 9511,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-summer-a.webp",
+      "status": 200,
+      "bytes": 209660,
+      "contentType": "image/webp",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-summer-b.webp",
+      "status": 200,
+      "bytes": 457486,
+      "contentType": "image/webp",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-winter-bath.png",
+      "status": 200,
+      "bytes": 27541,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-winter-book.png",
+      "status": 200,
+      "bytes": 16330,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-winter-contact.png",
+      "status": 200,
+      "bytes": 16427,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-winter-nav-calendar.png",
+      "status": 200,
+      "bytes": 6156,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-winter-nav-home.png",
+      "status": 200,
+      "bytes": 7650,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-winter-nav-pet.png",
+      "status": 200,
+      "bytes": 8046,
+      "contentType": "image/png",
+      "matches": true
+    },
+    {
+      "file": "assets/locked-winter.webp",
+      "status": 200,
+      "bytes": 180372,
+      "contentType": "image/webp",
+      "matches": true
+    },
+    {
+      "file": "assets/logo.svg",
+      "status": 200,
+      "bytes": 449,
+      "contentType": "image/svg+xml",
+      "matches": true
+    },
+    {
+      "file": "assets/pet-cat.jpg",
+      "status": 200,
+      "bytes": 134916,
+      "contentType": "image/jpeg",
+      "matches": true
+    },
+    {
+      "file": "assets/pet-corgi.jpg",
+      "status": 200,
+      "bytes": 93616,
+      "contentType": "image/jpeg",
+      "matches": true
+    },
+    {
+      "file": "assets/pet-dog.jpg",
+      "status": 200,
+      "bytes": 148810,
+      "contentType": "image/jpeg",
+      "matches": true
+    },
+    {
+      "file": "build-info.json",
+      "status": 200,
+      "bytes": 299,
+      "contentType": "application/json; charset=utf-8",
+      "matches": true
+    },
+    {
+      "file": "business.js",
+      "status": 200,
+      "bytes": 77896,
+      "contentType": "application/javascript; charset=utf-8",
+      "matches": true
+    },
+    {
+      "file": "customer.css",
+      "status": 200,
+      "bytes": 28277,
+      "contentType": "text/css; charset=utf-8",
+      "matches": true
+    },
+    {
+      "file": "customer.js",
+      "status": 200,
+      "bytes": 49402,
+      "contentType": "application/javascript; charset=utf-8",
+      "matches": true
+    },
+    {
+      "file": "DEPLOYMENT.md",
+      "status": 200,
+      "bytes": 1254,
+      "contentType": "text/markdown; charset=utf-8",
+      "matches": true
+    },
+    {
+      "file": "engine.mjs",
+      "status": 200,
+      "bytes": 41002,
+      "contentType": "text/javascript; charset=utf-8",
+      "matches": true
+    },
+    {
+      "file": "export.js",
+      "status": 200,
+      "bytes": 5147,
+      "contentType": "application/javascript; charset=utf-8",
+      "matches": true
+    },
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 1484,
+      "contentType": "text/html; charset=utf-8",
+      "matches": true
+    },
+    {
+      "file": "main.js",
+      "status": 200,
+      "bytes": 21386,
+      "contentType": "application/javascript; charset=utf-8",
+      "matches": true
+    },
+    {
+      "file": "styles.css",
+      "status": 200,
+      "bytes": 19342,
+      "contentType": "text/css; charset=utf-8",
+      "matches": true
+    },
+    {
+      "file": "ui.js",
+      "status": 200,
+      "bytes": 5965,
+      "contentType": "application/javascript; charset=utf-8",
+      "matches": true
+    }
+  ],
+  "realDeviceTests": "pending user report"
+}

@@ -1,0 +1,1 @@
+import {readFileSync,writeFileSync} from 'node:fs';const f='outputs/cloud-pet-demo/dist/business.js';let s=readFileSync(f,'utf8');s=s.replace("section(c,'所见即所得的预览')","section(c,'实时预览')");writeFileSync(f,s);

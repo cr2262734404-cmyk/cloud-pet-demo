@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-10-17T19:58:15.047Z",
+  "method": "Clicked public theme modal in desktop Chrome; observed B summer chip selected, then A autumn chip selected; closed modal; read rendered state.",
+  "realDevice": false,
+  "observations": {
+    "summerDefault": "b: chip selected",
+    "autumnDefault": "a: chip selected"
+  },
+  "current": {
+    "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/",
+    "mode": "local",
+    "theme": {
+      "season": "autumn",
+      "period": "sunset",
+      "auto": false,
+      "low": false,
+      "variant": "a",
+      "variants": {
+        "summer": "b",
+        "autumn": "a"
+      }
+    },
+    "scene": "url(\"./assets/locked-autumn-a.webp\")",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "horizontalOverflow": false,
+    "brokenImages": []
+  }
+}

@@ -266,4 +266,3 @@ export class DemoEngine {
     decorate(s,now);s.revision++;this.commit(store,s);return {ok:true,result};
   }
 }
-

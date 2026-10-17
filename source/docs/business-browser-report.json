@@ -1,0 +1,640 @@
+{
+  "date": "2026-10-18",
+  "scope": "老板端 / 员工端 H5 浏览器检查",
+  "environment": {
+    "browser": "Chrome 155.0.8059.80 on Windows",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "url": "http://127.0.0.1:4173",
+    "store": "meadow",
+    "session": "cloud-business",
+    "physicalHardware": false
+  },
+  "moduleChecks": {
+    "syntax": true,
+    "normalRoutes": 30,
+    "emptyRoutes": 30,
+    "handlerIntegrations": 19,
+    "htmlTagBalance": true
+  },
+  "flows": [
+    {
+      "name": "编辑话术并人工联系",
+      "status": "pass",
+      "opportunityId": "o2",
+      "detail": "修改文案后提交人工联系，未发送真实消息"
+    },
+    {
+      "name": "联系关联预约并确认",
+      "status": "pass",
+      "appointmentId": "booking-da41a068",
+      "detail": "2026-10-18 14:00，p3/s1/e1，老板确认"
+    },
+    {
+      "name": "员工接待到店 → 开始护理 → 完成手记",
+      "status": "pass",
+      "reportId": "report-ca34f509",
+      "detail": "实际点击3步；默认护理项保存中文记录；完成后生成待确认消费"
+    },
+    {
+      "name": "礼物模拟失败 → 重试 → 双项质检 → 发布",
+      "status": "pass",
+      "giftId": "gift-7419fd0d",
+      "detail": "未勾选质检时浏览器required拦截，确认后发布到对应顾客；原照片仍保留"
+    },
+    {
+      "name": "老板确认实际消费与归因",
+      "status": "pass",
+      "orderId": "order-ae5c9088",
+      "detail": "参考158元改为实际150元；总实际消费712元，归因308元；新增本次归因150元"
+    },
+    {
+      "name": "提醒规则拒绝自动人工微信",
+      "status": "pass",
+      "detail": "auto+manual触发明确错误提示"
+    },
+    {
+      "name": "授权订阅模拟与敏感拦截日志",
+      "status": "pass",
+      "detail": "有效对象模拟发送；离世、退订、家庭冷却、7天频次分别跳过并记录原因"
+    },
+    {
+      "name": "六海报编辑与保存草稿",
+      "status": "pass",
+      "detail": "模板/标题/文案/宠物变更在DOM预览同步；草稿保存后可恢复"
+    },
+    {
+      "name": "长护理手记编辑与高清导出",
+      "status": "pass",
+      "noteLength": 495,
+      "adviceLength": 118,
+      "documentWidth": 390,
+      "height": 2589,
+      "viewport": 390,
+      "width": 1080,
+      "original": {
+        "note": "每一个小小的进步，我们都认真记着。",
+        "advice": "建议 3–4 周后再次护理；日常梳毛保持毛发清爽。"
+      },
+      "generated": true
+    },
+    {
+      "name": "正方形专属礼物图",
+      "status": "pass",
+      "documentWidth": 390,
+      "height": 1080,
+      "viewport": 390,
+      "width": 1080
+    },
+    {
+      "name": "品牌/服务/员工/顾客表单修改",
+      "status": "pass",
+      "detail": "编辑、保存、重新进入核对，然后恢复原演示值",
+      "evidence": [
+        {
+          "flow": "store branding and hours",
+          "saved": "{\n  \"hours\": \"10:00–17:00\",\n  \"name\": \"青禾宠物 · 浏览器验收\"\n}"
+        },
+        {
+          "flow": "service edit",
+          "saved": "浏览器验收：温柔清洁与梳理，护理前确认每一位小伙伴的需求。"
+        },
+        {
+          "flow": "employee edit",
+          "saved": "小夏 · 验收"
+        },
+        {
+          "flow": "customer edit",
+          "saved": "浏览器验收：偏好下午到店，联系前先确认渠道授权。"
+        }
+      ]
+    },
+    {
+      "name": "营业时间联动可用时段",
+      "status": "pass-static-latest",
+      "detail": "最新静态H5浏览器复验通过：10:00–17:00只列区间内时段，90分钟服务最后可选15:30，已恢复09–18。历史测试时4173旧服务缺openingHours；主代理随后重启session66012并验证health200及openingHours存在。本记录未冒称重启后再次浏览器复验。",
+      "url": "http://127.0.0.1:4174/cloud-pet-demo/",
+      "evidence": {
+        "configured": "10:00–17:00",
+        "slots": [
+          {
+            "disabled": true,
+            "time": "10:00"
+          },
+          {
+            "disabled": true,
+            "time": "10:30"
+          },
+          {
+            "disabled": true,
+            "time": "11:00"
+          },
+          {
+            "disabled": true,
+            "time": "11:30"
+          },
+          {
+            "disabled": false,
+            "time": "12:00"
+          },
+          {
+            "disabled": false,
+            "time": "12:30"
+          },
+          {
+            "disabled": false,
+            "time": "13:00"
+          },
+          {
+            "disabled": false,
+            "time": "13:30"
+          },
+          {
+            "disabled": false,
+            "time": "14:00"
+          },
+          {
+            "disabled": false,
+            "time": "14:30"
+          },
+          {
+            "disabled": false,
+            "time": "15:00"
+          },
+          {
+            "disabled": false,
+            "time": "15:30"
+          },
+          {
+            "disabled": true,
+            "time": "16:00"
+          },
+          {
+            "disabled": true,
+            "time": "16:30"
+          }
+        ],
+        "restored": "09:00–18:00"
+      }
+    },
+    {
+      "name": "复制营销文案",
+      "status": "pass",
+      "detail": "实际点击复制文案后反馈分享文案已复制"
+    }
+  ],
+  "routes": [
+    {
+      "role": "owner",
+      "page": "today",
+      "id": "",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/today",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "今天，也照顾好生意",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-today.png"
+    },
+    {
+      "role": "owner",
+      "page": "radar",
+      "id": "",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/radar",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "营业额机会雷达",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-radar.png"
+    },
+    {
+      "role": "owner",
+      "page": "tasks",
+      "id": "",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/tasks",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "今日 Top 5",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-tasks.png"
+    },
+    {
+      "role": "owner",
+      "page": "opportunity",
+      "id": "o1",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/opportunity/o1",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "糯米的蓬松日，已经约好",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-opportunity.png"
+    },
+    {
+      "role": "owner",
+      "page": "contact",
+      "id": "o2",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/contact/o2",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "温柔地，打个招呼",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-contact.png"
+    },
+    {
+      "role": "owner",
+      "page": "reminders",
+      "id": "",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/reminders",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "把惦记，交给好规则",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-reminders.png"
+    },
+    {
+      "role": "owner",
+      "page": "reminder-rule",
+      "id": "new",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/reminder-rule/new",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "新建提醒规则",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-reminder-rule.png"
+    },
+    {
+      "role": "owner",
+      "page": "reminder-logs",
+      "id": "",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/reminder-logs",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "每一次提醒，都有记录",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-reminder-logs.png"
+    },
+    {
+      "role": "owner",
+      "page": "schedule",
+      "id": "",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/schedule",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "把好时光，安排妥当",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-schedule.png"
+    },
+    {
+      "role": "owner",
+      "page": "business-appointment",
+      "id": "a1",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/business-appointment/a1",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "预约与护理安排",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-business-appointment.png"
+    },
+    {
+      "role": "owner",
+      "page": "customers",
+      "id": "",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/customers",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "熟悉的名字，认真记着",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-customers.png"
+    },
+    {
+      "role": "owner",
+      "page": "customer-detail",
+      "id": "c1",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/customer-detail/c1",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "青禾·林女士",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-customer-detail.png"
+    },
+    {
+      "role": "owner",
+      "page": "posters",
+      "id": "",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/posters",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "把门店的好，分享出去",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-posters.png"
+    },
+    {
+      "role": "owner",
+      "page": "reports",
+      "id": "",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/reports",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "每一份照顾，都有回声",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-reports.png"
+    },
+    {
+      "role": "owner",
+      "page": "results",
+      "id": "",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/results",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "每一步用心，都有回响",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-results.png"
+    },
+    {
+      "role": "owner",
+      "page": "catalog",
+      "id": "",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/catalog",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "好服务，和好伙伴",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-catalog.png"
+    },
+    {
+      "role": "owner",
+      "page": "settings",
+      "id": "",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/settings",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "这家店，有自己的名字",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-settings.png"
+    },
+    {
+      "role": "owner",
+      "page": "business-booking",
+      "id": "o2",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/business-booking/o2",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "这条机会已有安排",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-business-booking.png"
+    },
+    {
+      "role": "owner",
+      "page": "customer-edit",
+      "id": "c1",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/customer-edit/c1",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "编辑顾客",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-customer-edit.png"
+    },
+    {
+      "role": "owner",
+      "page": "business-pet-edit",
+      "id": "p1",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/business-pet-edit/p1",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "编辑 糯米 的档案",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-business-pet-edit.png"
+    },
+    {
+      "role": "owner",
+      "page": "service-edit",
+      "id": "s1",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/service-edit/s1",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "编辑服务项目",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-service-edit.png"
+    },
+    {
+      "role": "owner",
+      "page": "employee-edit",
+      "id": "e1",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/employee-edit/e1",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "编辑护理伙伴",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-employee-edit.png"
+    },
+    {
+      "role": "owner",
+      "page": "business-report",
+      "id": "r1",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/business-report/r1",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "糯米的这一份乖",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-business-report.png"
+    },
+    {
+      "role": "owner",
+      "page": "gift",
+      "id": "r1",
+      "url": "http://127.0.0.1:4173/?role=owner&store=meadow#owner/gift/r1",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "给 糯米 的小心意",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/owner-gift.png"
+    },
+    {
+      "role": "staff",
+      "page": "work",
+      "id": "",
+      "url": "http://127.0.0.1:4173/?role=staff&store=meadow#staff/work",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "小夏，今天也辛苦啦",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/staff-work.png"
+    },
+    {
+      "role": "staff",
+      "page": "task",
+      "id": "a1",
+      "url": "http://127.0.0.1:4173/?role=staff&store=meadow#staff/task/a1",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "这一位，交给你照顾",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/staff-task.png"
+    },
+    {
+      "role": "staff",
+      "page": "complete",
+      "id": "a2",
+      "url": "http://127.0.0.1:4173/?role=staff&store=meadow#staff/complete/a2",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "这次护理还未开始",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/staff-complete.png"
+    },
+    {
+      "role": "staff",
+      "page": "history",
+      "id": "",
+      "url": "http://127.0.0.1:4173/?role=staff&store=meadow#staff/history",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "我照顾过的小伙伴",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/staff-history.png"
+    },
+    {
+      "role": "staff",
+      "page": "tools",
+      "id": "",
+      "url": "http://127.0.0.1:4173/?role=staff&store=meadow#staff/tools",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "顺手，留下更多温暖",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/staff-tools.png"
+    },
+    {
+      "role": "staff",
+      "page": "followups",
+      "id": "",
+      "url": "http://127.0.0.1:4173/?role=staff&store=meadow#staff/followups",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "title": "熟悉的小伙伴，温柔跟进",
+      "undefinedText": false,
+      "width": 390,
+      "screenshot": "outputs/screenshots/business/staff-followups.png"
+    }
+  ],
+  "posterExports": [
+    {
+      "template": "新客欢迎",
+      "documentWidth": 390,
+      "height": 1460,
+      "viewport": 390,
+      "width": 1080,
+      "screenshot": "outputs/screenshots/business/export-template-1.png",
+      "retried": false,
+      "status": "generated-and-previewed",
+      "fileSavedBy": "readback of displayed locally generated blob; native CLI download canceled"
+    },
+    {
+      "template": "洗护预约",
+      "documentWidth": 390,
+      "height": 1460,
+      "viewport": 390,
+      "width": 1080,
+      "screenshot": "outputs/screenshots/business/export-template-2.png",
+      "retried": false,
+      "status": "generated-and-previewed",
+      "fileSavedBy": "readback of displayed locally generated blob; native CLI download canceled"
+    },
+    {
+      "template": "节日活动",
+      "documentWidth": 390,
+      "height": 1460,
+      "viewport": 390,
+      "width": 1080,
+      "screenshot": "outputs/screenshots/business/export-template-3.png",
+      "retried": false,
+      "status": "generated-and-previewed",
+      "fileSavedBy": "readback of displayed locally generated blob; native CLI download canceled"
+    },
+    {
+      "template": "生日祝福",
+      "documentWidth": 390,
+      "height": 1610,
+      "viewport": 390,
+      "width": 1080,
+      "screenshot": "outputs/screenshots/business/export-template-4.png",
+      "retried": false,
+      "status": "generated-and-previewed",
+      "fileSavedBy": "readback of displayed locally generated blob; native CLI download canceled"
+    },
+    {
+      "template": "服务介绍",
+      "documentWidth": 390,
+      "height": 1450,
+      "viewport": 390,
+      "width": 1080,
+      "screenshot": "outputs/screenshots/business/export-template-5.png",
+      "retried": false,
+      "status": "generated-and-previewed",
+      "fileSavedBy": "readback of displayed locally generated blob; native CLI download canceled"
+    },
+    {
+      "template": "老客回访",
+      "documentWidth": 390,
+      "height": 1460,
+      "viewport": 390,
+      "width": 1080,
+      "screenshot": "outputs/screenshots/business/export-template-6.png",
+      "retried": false,
+      "status": "generated-and-previewed",
+      "fileSavedBy": "readback of displayed locally generated blob; native CLI download canceled"
+    }
+  ],
+  "limits": [
+    {
+      "item": "原生浏览器下载",
+      "status": "unverified",
+      "detail": "本业务自动化会话及指定下载目录新会话的download命令取消，直接点击无文件；六模板仅保存同一Blob像素证据。另据顾客端独立验收，Windows临时目录原生下载成功，属于不同会话证据。"
+    },
+    {
+      "item": "Android实际设备",
+      "status": "pending-user-test"
+    },
+    {
+      "item": "iPhone实际设备",
+      "status": "pending-user-test"
+    },
+    {
+      "item": "剪贴板/系统分享/移动键盘与相册",
+      "status": "pending-hardware",
+      "detail": "仅浏览器页面/导出能力已核对，原生系统交互待实际设备。"
+    }
+  ],
+  "browserErrors": [],
+  "publicSupplement": "docs/business-public-supplement.json"
+}

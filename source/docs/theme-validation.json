@@ -1,0 +1,1315 @@
+{
+  "title": "云朵宠物 H5 四季四时段浏览器尺寸矩阵",
+  "createdAt": "2026-10-17T20:22:21.124Z",
+  "url": "http://127.0.0.1:4174/cloud-pet-demo/",
+  "method": "Isolated Chrome; 390px uses actual theme picker clicks for all16 states and DPR2 screenshots; 320/430 set the same app theme context for geometry. Desktop emulation, not physical hardware.",
+  "realDeviceTest": false,
+  "android": "not-tested-no-physical-device",
+  "iphone": "not-tested-no-physical-device",
+  "selectedVariants": {
+    "summer": "b",
+    "autumn": "a"
+  },
+  "sceneImplementation": "Four unchanged canonical mother scenes and twelve independent time extensions; no scene brightness or color filter.",
+  "checks": [
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-spring.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 724.265625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 755,
+      "outside": [],
+      "period": "morning",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "spring",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "screenshot": "../../screenshots/themes-v2/spring-morning-390x844.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-spring-day.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 724.265625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 755,
+      "outside": [],
+      "period": "day",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "spring",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "screenshot": "../../screenshots/themes-v2/spring-day-390x844.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-spring-sunset.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 724.265625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 755,
+      "outside": [],
+      "period": "sunset",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "spring",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "screenshot": "../../screenshots/themes-v2/spring-sunset-390x844.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-spring-night.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 724.265625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 755,
+      "outside": [],
+      "period": "night",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "spring",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "screenshot": "../../screenshots/themes-v2/spring-night-390x844.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-summer-morning.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 724.265625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 755,
+      "outside": [],
+      "period": "morning",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "summer",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "b",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "screenshot": "../../screenshots/themes-v2/summer-morning-390x844.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-summer-b.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 724.265625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 755,
+      "outside": [],
+      "period": "day",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 1297,
+        "width": 1213
+      },
+      "season": "summer",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "b",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "screenshot": "../../screenshots/themes-v2/summer-day-390x844.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-summer-sunset.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 724.265625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 755,
+      "outside": [],
+      "period": "sunset",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "summer",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "b",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "screenshot": "../../screenshots/themes-v2/summer-sunset-390x844.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-summer-night.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 724.265625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 755,
+      "outside": [],
+      "period": "night",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "summer",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "b",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "screenshot": "../../screenshots/themes-v2/summer-night-390x844.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-autumn-morning.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 724.265625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 755,
+      "outside": [],
+      "period": "morning",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 1297,
+        "width": 1213
+      },
+      "season": "autumn",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "screenshot": "../../screenshots/themes-v2/autumn-morning-390x844.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-autumn-day.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 724.265625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 755,
+      "outside": [],
+      "period": "day",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 1297,
+        "width": 1213
+      },
+      "season": "autumn",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "screenshot": "../../screenshots/themes-v2/autumn-day-390x844.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-autumn-a.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 724.265625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 755,
+      "outside": [],
+      "period": "sunset",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "autumn",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "screenshot": "../../screenshots/themes-v2/autumn-sunset-390x844.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-autumn-night.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 724.265625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 755,
+      "outside": [],
+      "period": "night",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 1297,
+        "width": 1212
+      },
+      "season": "autumn",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "screenshot": "../../screenshots/themes-v2/autumn-night-390x844.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-winter-morning.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 724.265625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 755,
+      "outside": [],
+      "period": "morning",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 1297,
+        "width": 1212
+      },
+      "season": "winter",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "screenshot": "../../screenshots/themes-v2/winter-morning-390x844.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-winter-day.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 724.265625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 755,
+      "outside": [],
+      "period": "day",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 1297,
+        "width": 1212
+      },
+      "season": "winter",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "screenshot": "../../screenshots/themes-v2/winter-day-390x844.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-winter-sunset.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 724.265625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 755,
+      "outside": [],
+      "period": "sunset",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 1297,
+        "width": 1212
+      },
+      "season": "winter",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "screenshot": "../../screenshots/themes-v2/winter-sunset-390x844.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-winter.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 724.265625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 755,
+      "outside": [],
+      "period": "night",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "winter",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "screenshot": "../../screenshots/themes-v2/winter-night-390x844.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-spring.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 599.515625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 631,
+      "outside": [],
+      "period": "morning",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "spring",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 720,
+        "width": 320
+      },
+      "screenshot": "../../screenshots/themes-v2/spring-morning-320x720.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-spring-day.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 599.515625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 631,
+      "outside": [],
+      "period": "day",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "spring",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 720,
+        "width": 320
+      },
+      "screenshot": "../../screenshots/themes-v2/spring-day-320x720.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-spring-sunset.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 599.515625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 631,
+      "outside": [],
+      "period": "sunset",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "spring",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 720,
+        "width": 320
+      },
+      "screenshot": "../../screenshots/themes-v2/spring-sunset-320x720.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-spring-night.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 599.515625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 631,
+      "outside": [],
+      "period": "night",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "spring",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 720,
+        "width": 320
+      },
+      "screenshot": "../../screenshots/themes-v2/spring-night-320x720.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-summer-morning.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 599.515625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 631,
+      "outside": [],
+      "period": "morning",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "summer",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "b",
+      "viewport": {
+        "height": 720,
+        "width": 320
+      },
+      "screenshot": "../../screenshots/themes-v2/summer-morning-320x720.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-summer-b.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 599.515625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 631,
+      "outside": [],
+      "period": "day",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 1297,
+        "width": 1213
+      },
+      "season": "summer",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "b",
+      "viewport": {
+        "height": 720,
+        "width": 320
+      },
+      "screenshot": "../../screenshots/themes-v2/summer-day-320x720.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-summer-sunset.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 599.515625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 631,
+      "outside": [],
+      "period": "sunset",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "summer",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "b",
+      "viewport": {
+        "height": 720,
+        "width": 320
+      },
+      "screenshot": "../../screenshots/themes-v2/summer-sunset-320x720.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-summer-night.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 599.515625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 631,
+      "outside": [],
+      "period": "night",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "summer",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "b",
+      "viewport": {
+        "height": 720,
+        "width": 320
+      },
+      "screenshot": "../../screenshots/themes-v2/summer-night-320x720.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-autumn-morning.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 599.515625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 631,
+      "outside": [],
+      "period": "morning",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 1297,
+        "width": 1213
+      },
+      "season": "autumn",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 720,
+        "width": 320
+      },
+      "screenshot": "../../screenshots/themes-v2/autumn-morning-320x720.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-autumn-day.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 599.515625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 631,
+      "outside": [],
+      "period": "day",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 1297,
+        "width": 1213
+      },
+      "season": "autumn",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 720,
+        "width": 320
+      },
+      "screenshot": "../../screenshots/themes-v2/autumn-day-320x720.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-autumn-a.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 599.515625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 631,
+      "outside": [],
+      "period": "sunset",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "autumn",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 720,
+        "width": 320
+      },
+      "screenshot": "../../screenshots/themes-v2/autumn-sunset-320x720.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-autumn-night.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 599.515625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 631,
+      "outside": [],
+      "period": "night",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 1297,
+        "width": 1212
+      },
+      "season": "autumn",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 720,
+        "width": 320
+      },
+      "screenshot": "../../screenshots/themes-v2/autumn-night-320x720.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-winter-morning.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 599.515625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 631,
+      "outside": [],
+      "period": "morning",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 1297,
+        "width": 1212
+      },
+      "season": "winter",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 720,
+        "width": 320
+      },
+      "screenshot": "../../screenshots/themes-v2/winter-morning-320x720.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-winter-day.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 599.515625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 631,
+      "outside": [],
+      "period": "day",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 1297,
+        "width": 1212
+      },
+      "season": "winter",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 720,
+        "width": 320
+      },
+      "screenshot": "../../screenshots/themes-v2/winter-day-320x720.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-winter-sunset.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 599.515625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 631,
+      "outside": [],
+      "period": "sunset",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 1297,
+        "width": 1212
+      },
+      "season": "winter",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 720,
+        "width": 320
+      },
+      "screenshot": "../../screenshots/themes-v2/winter-sunset-320x720.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-winter.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 599.515625,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 631,
+      "outside": [],
+      "period": "night",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "winter",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 720,
+        "width": 320
+      },
+      "screenshot": "../../screenshots/themes-v2/winter-night-320x720.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-spring.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 812.03125,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 843,
+      "outside": [],
+      "period": "morning",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "spring",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 932,
+        "width": 430
+      },
+      "screenshot": "../../screenshots/themes-v2/spring-morning-430x932.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-spring-day.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 812.03125,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 843,
+      "outside": [],
+      "period": "day",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "spring",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 932,
+        "width": 430
+      },
+      "screenshot": "../../screenshots/themes-v2/spring-day-430x932.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-spring-sunset.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 812.03125,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 843,
+      "outside": [],
+      "period": "sunset",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "spring",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 932,
+        "width": 430
+      },
+      "screenshot": "../../screenshots/themes-v2/spring-sunset-430x932.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-spring-night.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 812.03125,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 843,
+      "outside": [],
+      "period": "night",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "spring",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 932,
+        "width": 430
+      },
+      "screenshot": "../../screenshots/themes-v2/spring-night-430x932.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-summer-morning.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 812.03125,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 843,
+      "outside": [],
+      "period": "morning",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "summer",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "b",
+      "viewport": {
+        "height": 932,
+        "width": 430
+      },
+      "screenshot": "../../screenshots/themes-v2/summer-morning-430x932.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-summer-b.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 812.03125,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 843,
+      "outside": [],
+      "period": "day",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 1297,
+        "width": 1213
+      },
+      "season": "summer",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "b",
+      "viewport": {
+        "height": 932,
+        "width": 430
+      },
+      "screenshot": "../../screenshots/themes-v2/summer-day-430x932.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-summer-sunset.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 812.03125,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 843,
+      "outside": [],
+      "period": "sunset",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "summer",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "b",
+      "viewport": {
+        "height": 932,
+        "width": 430
+      },
+      "screenshot": "../../screenshots/themes-v2/summer-sunset-430x932.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-summer-night.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 812.03125,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 843,
+      "outside": [],
+      "period": "night",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "summer",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "b",
+      "viewport": {
+        "height": 932,
+        "width": 430
+      },
+      "screenshot": "../../screenshots/themes-v2/summer-night-430x932.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-autumn-morning.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 812.03125,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 843,
+      "outside": [],
+      "period": "morning",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 1297,
+        "width": 1213
+      },
+      "season": "autumn",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 932,
+        "width": 430
+      },
+      "screenshot": "../../screenshots/themes-v2/autumn-morning-430x932.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-autumn-day.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 812.03125,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 843,
+      "outside": [],
+      "period": "day",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 1297,
+        "width": 1213
+      },
+      "season": "autumn",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 932,
+        "width": 430
+      },
+      "screenshot": "../../screenshots/themes-v2/autumn-day-430x932.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-autumn-a.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 812.03125,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 843,
+      "outside": [],
+      "period": "sunset",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "autumn",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 932,
+        "width": 430
+      },
+      "screenshot": "../../screenshots/themes-v2/autumn-sunset-430x932.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-autumn-night.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 812.03125,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 843,
+      "outside": [],
+      "period": "night",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 1297,
+        "width": 1212
+      },
+      "season": "autumn",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 932,
+        "width": 430
+      },
+      "screenshot": "../../screenshots/themes-v2/autumn-night-430x932.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-winter-morning.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 812.03125,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 843,
+      "outside": [],
+      "period": "morning",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 1297,
+        "width": 1212
+      },
+      "season": "winter",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 932,
+        "width": 430
+      },
+      "screenshot": "../../screenshots/themes-v2/winter-morning-430x932.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-winter-day.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 812.03125,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 843,
+      "outside": [],
+      "period": "day",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 1297,
+        "width": 1212
+      },
+      "season": "winter",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 932,
+        "width": 430
+      },
+      "screenshot": "../../screenshots/themes-v2/winter-day-430x932.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/world-winter-sunset.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 812.03125,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 843,
+      "outside": [],
+      "period": "sunset",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 1297,
+        "width": 1212
+      },
+      "season": "winter",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 932,
+        "width": 430
+      },
+      "screenshot": "../../screenshots/themes-v2/winter-sunset-430x932.png"
+    },
+    {
+      "background": "url(\"http://127.0.0.1:4174/cloud-pet-demo/assets/locked-winter.webp\")",
+      "brokenImages": [],
+      "clipped": [],
+      "computedFilter": "none",
+      "horizontalOverflow": false,
+      "lastActionBottom": 812.03125,
+      "lastActionClearOfNav": true,
+      "mode": "local",
+      "navInteractable": true,
+      "navTop": 843,
+      "outside": [],
+      "period": "night",
+      "primaryInteractable": true,
+      "sceneLoaded": {
+        "height": 912,
+        "width": 853
+      },
+      "season": "winter",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "variant": "a",
+      "viewport": {
+        "height": 932,
+        "width": 430
+      },
+      "screenshot": "../../screenshots/themes-v2/winter-night-430x932.png"
+    }
+  ],
+  "completedAt": "2026-10-17T20:23:00.357Z",
+  "total": 48,
+  "issues": []
+}

@@ -1,0 +1,12 @@
+import {execFileSync} from 'node:child_process';import {writeFileSync} from 'node:fs';
+const cli='work/tools/node_modules/agent-browser/bin/agent-browser.js',run=(...a)=>execFileSync(process.execPath,[cli,'--session','cloud-business',...a],{encoding:'utf8',timeout:45000,maxBuffer:15*1024*1024}).trim();
+const original={note:'每一个小小的进步，我们都认真记着。',advice:'建议 3–4 周后再次护理；日常梳毛保持毛发清爽。'};
+const note='今天的小伙伴很配合，梳理毛发时我们放慢了节奏，留意它的每一个小动作。吹毛阶段使用温和风量，中间安排短暂休息，最后仔细检查耳部、爪垫和毛发状态。回家之后，请继续按照熟悉的方式温柔陪伴，给它清洁饮水和安心休息的空间。'.repeat(5).slice(0,495);
+const advice='根据本次护理后的毛发与皮肤状态，建议三至四周后再做护理。平时轻柔梳毛并观察皮肤变化，如有持续不适请联系专业兽医，下一次来店时告诉我们近期变化。'.repeat(2).slice(0,118);
+run('fill','textarea[name="note"]',note);run('fill','input[name="nextAdvice"]',advice);run('scrollintoview','form[data-action="biz:report-save"] button[type="submit"]');run('scroll','down','200');run('click','form[data-action="biz:report-save"] button[type="submit"]');
+run('wait','--text','已保存，相关页面同步更新');
+run('scrollintoview','[data-action="biz:report-download"]');run('scroll','down','240');run('click','[data-action="biz:report-download"]');run('wait','--fn','document.querySelector("#export-image")?.naturalWidth>0');
+const dim=JSON.parse(run('eval','({width:document.querySelector("#export-image").naturalWidth,height:document.querySelector("#export-image").naturalHeight,viewport:innerWidth,documentWidth:document.documentElement.scrollWidth})'));
+const data=JSON.parse(run('eval','(async()=>{const b=await (await fetch(document.querySelector("#export-image").src)).blob();return await new Promise(r=>{const f=new FileReader();f.onload=()=>r(f.result);f.readAsDataURL(b);});})()'));
+writeFileSync('outputs/screenshots/business/report-long-actual.png',Buffer.from(data.split(',')[1],'base64'));run('screenshot','outputs/screenshots/business/report-long-modal.png');writeFileSync('work/business-long-report.json',JSON.stringify({noteLength:note.length,adviceLength:advice.length,...dim,original,generated:true},null,2));console.log(JSON.stringify({noteLength:note.length,adviceLength:advice.length,...dim}));
+run('click','button.modal-close');run('fill','textarea[name="note"]',original.note);run('fill','input[name="nextAdvice"]',original.advice);run('scrollintoview','form[data-action="biz:report-save"] button[type="submit"]');run('scroll','down','200');run('click','form[data-action="biz:report-save"] button[type="submit"]');

@@ -1,0 +1,13 @@
+const fs=require('node:fs');
+const p='outputs/cloud-pet-demo/dist/main.js';
+let s=fs.readFileSync(p,'utf8');
+s=s.replace("if(!seasons[theme.season])theme.season='spring';if(!periods[theme.period])theme.period='morning';", "if(!seasons[theme.season])theme.season='spring';if(!periods[theme.period])theme.period='morning';\nconst approvedVariants={summer:'b',autumn:'a'};theme.variants={...approvedVariants,...(savedTheme?.variants||{})};if(['a','b'].includes(params.get('variant')))theme.variants[theme.season]=params.get('variant');theme.variant=theme.variants[theme.season]||'a';");
+s=s.replace("}document.body.dataset.season=theme.season;", "}theme.variant=theme.variants[theme.season]||'a';document.body.dataset.season=theme.season;");
+s=s.replace("case 'variant':theme.variant=el.dataset.id;", "case 'variant':theme.variants[theme.season]=el.dataset.id;theme.variant=el.dataset.id;");
+s=s.replace('首页方案 · 待你选择','首页方案 · 已选版本与备选回看');
+s=s.replace("['summer','autumn'].includes(k)?'-a':''", "['summer','autumn'].includes(k)?'-'+(theme.variants[k]||approvedVariants[k]):''");
+s=s.replace("${ui.section('已记录的设备')}<div", "${ui.section('已记录的设备')}<p class=\"small muted\">静态版的记录仅保存在当前浏览器。可导出文件，作为实际验收反馈。</p>${tests.length?'<button class=\"button secondary\" data-action=\"device-export\">导出验收记录 JSON</button>':''}<div");
+s=s.replace("case 'export-share':", "case 'device-export':{const data={demo:'云朵宠物 H5',mode,exportedAt:new Date().toISOString(),url:location.href,records:state.deviceTests||[],notice:'测试者自述结果，未经自动硬件验证'};const u=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=u;a.download='云朵宠物-真机验收.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),60000);toast('已导出此浏览器内的实际验收记录');return true;}case 'export-share':");
+fs.writeFileSync(p,s);
+fs.appendFileSync('outputs/cloud-pet-demo/dist/styles.css','\n/* Keep focused controls above the fixed mobile navigation. */\nhtml{scroll-padding-top:60px;scroll-padding-bottom:116px}button,input,select,textarea,a{scroll-margin-top:64px;scroll-margin-bottom:116px}\n');
+console.log('Season defaults and device evidence export updated.');

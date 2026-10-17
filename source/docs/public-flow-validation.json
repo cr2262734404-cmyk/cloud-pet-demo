@@ -1,0 +1,126 @@
+{
+  "bookingId": "booking-87eb1580",
+  "brokenImages": [],
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+  "completedAt": "2026-10-17T20:06:16.413Z",
+  "device": "Desktop Chrome viewport 390x844; not physical phone",
+  "imageResponses": [
+    {
+      "ok": true,
+      "status": 200,
+      "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/assets/access-qr.png"
+    },
+    {
+      "ok": true,
+      "status": 200,
+      "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/assets/pet-dog.jpg"
+    },
+    {
+      "ok": true,
+      "status": 200,
+      "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/assets/locked-summer-a-bath.png"
+    },
+    {
+      "ok": true,
+      "status": 200,
+      "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/assets/locked-summer-a-nav-home.png"
+    },
+    {
+      "ok": true,
+      "status": 200,
+      "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/assets/locked-summer-a-nav-calendar.png"
+    },
+    {
+      "ok": true,
+      "status": 200,
+      "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/assets/locked-summer-a-nav-pet.png"
+    },
+    {
+      "ok": true,
+      "status": 200,
+      "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/assets/locked-summer-b.webp"
+    }
+  ],
+  "mode": "local",
+  "openingHours": {
+    "close": "18:00",
+    "end": 1080,
+    "open": "09:00",
+    "start": 540
+  },
+  "physicalAndroid": "pending user verification",
+  "physicalIPhone": "pending user verification",
+  "reportId": "report-b6edc0dd",
+  "resource404": [],
+  "result": "pass",
+  "scope": "Static H5 same-browser role switching and local persistence. No cross-device data synchronization claimed.",
+  "screenshots": [
+    "../../screenshots/customer/public-customer-booking-success.png",
+    "../../screenshots/customer/public-staff-completed-report.png",
+    "../../screenshots/customer/public-customer-report.png",
+    "../../screenshots/customer/public-after-reload.png"
+  ],
+  "startedAt": "2026-10-17T20:02:08.069Z",
+  "steps": [
+    {
+      "appointment": {
+        "date": "2026-10-18",
+        "employeeId": "e1",
+        "id": "booking-87eb1580",
+        "status": "pending",
+        "time": "12:00"
+      },
+      "mode": "local",
+      "role": "customer",
+      "step": "customer_create"
+    },
+    {
+      "role": "owner",
+      "status": "confirmed",
+      "step": "owner_confirm"
+    },
+    {
+      "role": "staff",
+      "status": "arrived",
+      "step": "staff_arrive"
+    },
+    {
+      "role": "staff",
+      "status": "serving",
+      "step": "staff_start"
+    },
+    {
+      "reportId": "report-b6edc0dd",
+      "reportNote": "公网静态 H5 验收：糯米今天很配合，洗护、耳部清洁与指甲护理已经完成。",
+      "role": "staff",
+      "status": "completed",
+      "step": "staff_complete"
+    },
+    {
+      "id": "report-b6edc0dd",
+      "noteVisible": true,
+      "page": "report",
+      "readOnly": true,
+      "reportId": "report-b6edc0dd",
+      "role": "customer",
+      "step": "customer_view_report",
+      "viewed": true
+    },
+    {
+      "appointmentPersisted": true,
+      "id": "report-b6edc0dd",
+      "localStoragePresent": true,
+      "mode": "local",
+      "page": "report",
+      "reportPersisted": true,
+      "reportViewed": true,
+      "role": "customer",
+      "step": "reload_persistence",
+      "visibleTextPersisted": true
+    }
+  ],
+  "store": "cloud",
+  "today": "2026-10-18",
+  "url": "https://cr2262734404-cmyk.github.io/cloud-pet-demo/?role=customer&store=cloud&season=summer&period=day&variant=b",
+  "consoleErrors": []
+}

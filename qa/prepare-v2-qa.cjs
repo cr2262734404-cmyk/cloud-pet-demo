@@ -1,0 +1,11 @@
+const fs=require('node:fs');const f='work/theme-qa.mjs';let s=fs.readFileSync(f,'utf8');
+s=s.replace("android:'pending-user-test',iphone:'pending-user-test'","android:'not-tested-no-physical-device',iphone:'not-tested-no-physical-device'");
+s=s.replace("knownSceneLimitation:'16 states use seasonal original scenes plus light parameters; winter daytime still retains night scene elements.'","sceneImplementation:'Four unchanged canonical mother scenes and twelve independent time extensions; no scene brightness or color filter.'");
+s=s.replace("const screenshots=resolve(root,'outputs/screenshots/themes');","const screenshots=resolve(root,'outputs/screenshots/themes-v2');");
+s=s.replace("screenshot:`../../screenshots/themes/","screenshot:`../../screenshots/themes-v2/");
+s=s.replace("const source=background.startsWith", "const computedFilter=getComputedStyle(document.querySelector('.home-scene')).filter;\n   const source=background.startsWith");
+s=s.replace('viewport:{width:innerWidth,height:innerHeight},background,sceneLoaded,','viewport:{width:innerWidth,height:innerHeight},background,computedFilter,sceneLoaded,');
+s=s.replace("for(const [width,height] of", "command(['open',report.url]);\nevaluate(`(async()=>{while(!window.__cloudDemo?.context?.state)await new Promise(r=>setTimeout(r,30));})()`);\nfor(const [width,height] of");
+fs.writeFileSync(f,s);
+const p='work/prepare-publish.cjs';s=fs.readFileSync(p,'utf8').replace("/^locked-(spring|winter|summer-[ab]|autumn-[ab])\\.webp$/","/^(locked-(spring|winter|summer-[ab]|autumn-[ab])|world-(spring|summer|autumn|winter)-(morning|day|sunset|night))\\.webp$/");fs.writeFileSync(p,s);
+console.log('Release cache keys and v2 validation script ready.');

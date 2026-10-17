@@ -1,0 +1,1 @@
+const s=await(await fetch('http://127.0.0.1:4173/api/state?store=meadow&role=owner')).json();const d=s.state||s;console.log(JSON.stringify({hours:d.store?.hours,openingHours:d.openingHours,keys:Object.keys(d)}));

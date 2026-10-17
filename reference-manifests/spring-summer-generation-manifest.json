@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-17T20:16:41.769Z",
+  "method": "Built-in image_gen image editing using attached mother-image path, one standalone scene per asset. Full originals retained. Pillow only resizes and encodes WebP.",
+  "targetSize": [
+    853,
+    912
+  ],
+  "targetRatio": "853:912",
+  "scope": "Spring and summer six noncanonical time extensions only. Locked spring morning and selected summer-B daytime remain untouched.",
+  "sourceDisclosure": "AI-extended illustrations from locked mother images; new time scenes preserve landmark layout and pet identity by visual review, not pixel-exact copies. No filter-only time variants.",
+  "assets": [
+    {
+      "key": "spring-day",
+      "sourceGeneratedFile": "C:/Users/Administrator/.codex/generated_images/01a14b28-23ec-7b92-badd-fbf02d01531a/exec-3ed9f432-2825-48cd-bade-3359fbf0a9f8.png",
+      "motherFile": "dist/assets/locked-spring.webp",
+      "originalFile": "references/time-extensions/world-spring-day.png",
+      "webpFile": "dist/assets/world-spring-day.webp",
+      "prompt": "Use case: lighting-weather. EDIT TARGET: the attached spring mother image, not a loose style reference. Deliver one complete independent high-resolution portrait background with exact aspect ratio 853:912 (prefer 1706x1824 or larger matching ratio). Transform this exact world from spring dawn to bright SPRING DAYTIME around 11am. Preserve the camera, horizon height, open meadow, winding trail from lower middle toward left, tall narrow tree at left, hanging fresh spring foliage in upper left, distant layered mountain silhouettes, calm lake, small existing village at lower right, daisies, and overall spatial arrangement. Keep sky wide and airy, roughly upper 60 percent, clear quiet central-left sky reserved for real UI text; produce no text, no logo, no buttons. The recognizable small white curly bichon with mint collar and gold paw charm remains in the lower-right meadow at the same small scale; give it a gentle head-turn while walking, natural anatomy. The small orange-and-white cat remains in midground beside the winding path at the same scale, relaxed walking. Do not add other animals or structures. Daytime must be genuinely relit: clear blue sky, newly formed white daytime clouds, overhead bright sunlight, short soft shadows, crisp green leaves and luminous white daisies; remove the low dawn sun and gold horizon glare, reveal bright natural mountain/lake colors. Absolutely NO moon and NO stars anywhere. No global color filter. Match original warm painterly illustration finish, detailed but not photorealistic, no enlarged mascot faces or crowded foreground. Retain landform, all existing landmarks and pet identities; change only plausible time-of-day environment and subtle natural pet pose.",
+      "refinementPrompt": null,
+      "visualChecks": {
+        "viewedMotherBeforeEdit": true,
+        "viewedGeneratedResult": true,
+        "viewedCompressedFinal": true,
+        "standalonePortrait": true,
+        "noBakedUiOrText": true,
+        "landmarkLayout": "PASS: same mountains, lake, left trees and paths; no unfamiliar major buildings.",
+        "petIdentity": "PASS: small white curly dog with mint collar/gold tag, orange-white cat; no new animal.",
+        "dayNight": "PASS: daytime/morning/sunset sky and sunlight; no moon or stars.",
+        "composition": "PASS: roomy upper sky, pets remain in lower area at natural small scale.",
+        "actionAndLighting": "清澈蓝天与白日云层，短柔影；白狗行走轻回头，橘猫沿路径行走。"
+      },
+      "originalDimensions": [
+        1212,
+        1297
+      ],
+      "originalSha256": "0455eabbbe10df10b1ec6fb5811994399635611b6d7ff71728d2d2bdae02f849",
+      "originalCopyVerified": true,
+      "webpSha256": "e0fa6363d58068717884cee6e9859285daca7418c8fd1a7adf1f89b1387b3e4f",
+      "webpBytes": 224146,
+      "webpDimensions": [
+        853,
+        912
+      ],
+      "motherSha256AtDelivery": "e1188b470e7c0976a6be7d01fbf1c9581570fc1f9b30c1c15a48f473dc653ce2"
+    },
+    {
+      "key": "spring-sunset",
+      "sourceGeneratedFile": "C:/Users/Administrator/.codex/generated_images/01a14b28-23ec-7b92-badd-fbf02d01531a/exec-c803d557-0cc7-4b15-9f73-330da6615015.png",
+      "motherFile": "dist/assets/locked-spring.webp",
+      "originalFile": "references/time-extensions/world-spring-sunset.png",
+      "webpFile": "dist/assets/world-spring-sunset.webp",
+      "prompt": "Use case: lighting-weather. EDIT TARGET: the supplied spring mother image, preserve its actual world and camera. One independent complete high-resolution portrait background, exact aspect ratio 853:912. Keep the same upper-left leafy canopy, narrow tall tree at left, low meadow path that curves away left, existing white daisies and rocks, far layered blue mountains, narrow lake and existing tiny village on lower-right hillside. Preserve horizon, all landforms, spatial depth and location of landmarks. Keep expansive sky, clear calm upper central-left negative space for real DOM UI, but generate NO text, NO UI, NO logo, NO border. Keep exactly the original two pets: small white curly bichon, mint collar with tiny gold paw charm in lower-right meadow, and smaller orange-and-white cat near the midground path. Maintain their original proportions and scale, dog occupies at most 23% image width, no faces filling screen, no extra animals or buildings. Match original painterly illustrated detail and softness. Transform to genuine SPRING SUNSET, a low visible warm sun just above the existing distant right ridge, peach-pink and orange cloud formations, blue high sky gradually warming toward horizon, golden lake reflection and convincing long angled ground shadows. Fresh spring foliage and grass remain GREEN beneath warm rim light, not autumn orange leaves. Dog now pauses and looks back toward the small cat, natural full-body stance in the same lower-right patch, cat calmly approaches along the path. Retain meadow openness and composition. Absolutely no moon, no stars. This is a newly illuminated coherent sunset environment, not a color overlay or darkened daytime.",
+      "refinementPrompt": null,
+      "visualChecks": {
+        "viewedMotherBeforeEdit": true,
+        "viewedGeneratedResult": true,
+        "viewedCompressedFinal": true,
+        "standalonePortrait": true,
+        "noBakedUiOrText": true,
+        "landmarkLayout": "PASS: same mountains, lake, left trees and paths; no unfamiliar major buildings.",
+        "petIdentity": "PASS: small white curly dog with mint collar/gold tag, orange-white cat; no new animal.",
+        "dayNight": "PASS: daytime/morning/sunset sky and sunlight; no moon or stars.",
+        "composition": "PASS: roomy upper sky, pets remain in lower area at natural small scale.",
+        "actionAndLighting": "右侧低太阳、桃粉晚霞与金色湖面，草地长影；白狗停步回望橘猫。"
+      },
+      "originalDimensions": [
+        1212,
+        1297
+      ],
+      "originalSha256": "417daad713dc3ea3e1dab8961940949494216647b54e4f738a0c172784eb2f3d",
+      "originalCopyVerified": true,
+      "webpSha256": "bbb109ef28b010c8ffd7bd23467ebfff51b54893db2d8f9465a9bd73e01dbef2",
+      "webpBytes": 226212,
+      "webpDimensions": [
+        853,
+        912
+      ],
+      "motherSha256AtDelivery": "e1188b470e7c0976a6be7d01fbf1c9581570fc1f9b30c1c15a48f473dc653ce2"
+    },
+    {
+      "key": "spring-night",
+      "sourceGeneratedFile": "C:/Users/Administrator/.codex/generated_images/01a14b28-23ec-7b92-badd-fbf02d01531a/exec-ef031e2c-0244-4ad8-a3d7-720c2cac917f.png",
+      "motherFile": "dist/assets/locked-spring.webp",
+      "originalFile": "references/time-extensions/world-spring-night.png",
+      "webpFile": "dist/assets/world-spring-night.webp",
+      "prompt": "Use case: lighting-weather. EDIT TARGET: the supplied spring mother image, preserve its actual world and camera. One independent complete high-resolution portrait background, exact aspect ratio 853:912. Keep the same upper-left leafy canopy, narrow tall tree at left, low meadow path that curves away left, existing white daisies and rocks, far layered blue mountains, narrow lake and existing tiny village on lower-right hillside. Preserve horizon, all landforms, spatial depth and location of landmarks. Keep expansive sky, clear calm upper central-left negative space for real DOM UI, but generate NO text, NO UI, NO logo, NO border. Keep exactly the original two pets: small white curly bichon, mint collar with tiny gold paw charm in lower-right meadow, and smaller orange-and-white cat near the midground path. Maintain their original proportions and scale, dog occupies at most 23% image width, no faces filling screen, no extra animals or buildings. Match original painterly illustrated detail and softness. Transform to genuine SPRING NIGHT: wide deep luminous blue starry sky with a small crescent moon in the upper RIGHT, silver-edged sparse night clouds, silver moonlit reflections on the same distant lake, distinct cool shadows and subtle light on green leaves and daisies. Illuminate only the existing tiny village windows with warm golden light; do not add houses or outdoor lamps. The white bichon now lies comfortably awake on the same lower-right meadow facing the lake, mint collar and gold paw charm visible; the orange-and-white cat sits quietly near its original midground path, both small and naturally integrated. Sky must be visibly nocturnal, actual moon and stars, no sun and no daylight cloud glare. Preserve landforms, village, path, tree silhouette and wide open composition. Not merely a dark filter; paint physically plausible moonlight, stars, changed clouds and window illumination.",
+      "refinementPrompt": "Use case: precise-object-edit, lighting-weather. EDIT this exact supplied SPRING NIGHT image with ONLY ONE LOCAL CORRECTION. At the distant right-hand mountain horizon, around x=80–89 percent and y=59–63 percent, remove the bright ivory/yellow sunrise-like patch behind the ridge. Replace that small patch with continuous deep cool blue nighttime sky and dim silver-blue cloud edges, matching adjacent sky. Absolutely no sun, no second moon, no luminous orb on the horizon. KEEP the existing small crescent moon in upper-right, the entire star field, every cloud elsewhere, original hills/lake/path/trees/village/warm windows, same small resting white curly dog with mint collar and gold charm, same sitting orange-and-white cat, same composition unchanged. Preserve the existing landscape and moonlit meadow, do not alter pet anatomy or identities, do not reposition anything. Keep source exact aspect ratio 853:912, high-resolution independent complete scene, no text or UI. This is a subtle local horizon correction, not a new scene.",
+      "visualChecks": {
+        "viewedMotherBeforeEdit": true,
+        "viewedGeneratedResult": true,
+        "viewedCompressedFinal": true,
+        "standalonePortrait": true,
+        "noBakedUiOrText": true,
+        "landmarkLayout": "PASS: same mountains, lake, left trees and paths; no unfamiliar major buildings.",
+        "petIdentity": "PASS: small white curly dog with mint collar/gold tag, orange-white cat; no new animal.",
+        "dayNight": "PASS: actual moon/star sky, cool lake reflection, existing warm village windows, no visible sun or dawn horizon.",
+        "composition": "PASS: roomy upper sky, pets remain in lower area at natural small scale.",
+        "actionAndLighting": "钴蓝星空、右上弯月、银色湖面与原村落暖窗；白狗卧下望向湖面，橘猫坐在小径。已修正初稿右侧山脊过亮地平线。"
+      },
+      "originalDimensions": [
+        1213,
+        1296
+      ],
+      "originalSha256": "39b2187eda8a6840c18d0fd691022ddd031cf134409e8af2de63abea170dbd88",
+      "originalCopyVerified": true,
+      "webpSha256": "d7d3d27b8a880172e7a96299e226f3933c4fa47b79fbfdf3c01fbae09ccf02ef",
+      "webpBytes": 201514,
+      "webpDimensions": [
+        853,
+        912
+      ],
+      "motherSha256AtDelivery": "e1188b470e7c0976a6be7d01fbf1c9581570fc1f9b30c1c15a48f473dc653ce2"
+    },
+    {
+      "key": "summer-morning",
+      "sourceGeneratedFile": "C:/Users/Administrator/.codex/generated_images/01a14b28-23ec-7b92-badd-fbf02d01531a/exec-de3dbddb-4cc5-4d63-a5f3-e561c52c7e57.png",
+      "motherFile": "dist/assets/locked-summer-b.webp",
+      "originalFile": "references/time-extensions/world-summer-morning.png",
+      "webpFile": "dist/assets/world-summer-morning.webp",
+      "prompt": "Use case: lighting-weather. EDIT TARGET: this exact supplied SUMMER B mother image, preserving its actual geography and composition. Make ONE independent complete high-resolution portrait scene, exact aspect ratio 853:912. Lock the framing and positions: huge leafy tree trunk along left edge and canopy covering upper left, spacious sky at upper center/right, distant layered mountains at same height and silhouette, broad open turquoise lake across lower middle with the same irregular shoreline, tiny existing lakeside village on far right shore, nearshore trees, low wooden fence and winding path across foreground hillside, green meadow and white daisies. Maintain original camera, depth, spatial coordinates and overall view. Keep exactly the same two small pets: white curly bichon with mint collar and gold paw charm in lower-right foreground, small orange-and-white cat beside the left tree. Keep the blue paw-print ball beside the bichon in lower right. Preserve faces, fur patterns, relative size; no new animals, no new buildings or lamps, no giant mascots, no centered crowded close-up. Keep painterly storybook finish matching the source. Retain clean empty upper central-left sky for real DOM text, but generate no text, no UI, no graphics or borders. Transform to SUMMER EARLY MORNING: gentle pale blue morning sky with soft peach dawn color near the far-right horizon, soft early sunlight just clearing the existing right mountain ridge, thin drifting mist hovering above the broad lake without hiding shorelines, small dewdrops on grass and daisies, cool tree shade and soft long morning shadows. The small bichon leans down to sniff its blue ball in the same lower-right patch; the orange-and-white cat stretches calmly beside the same left tree. All grass and canopy remain richly GREEN summer foliage. Real atmospheric/environment changes, not a color overlay. No moon and absolutely no stars in morning sky.",
+      "refinementPrompt": null,
+      "visualChecks": {
+        "viewedMotherBeforeEdit": true,
+        "viewedGeneratedResult": true,
+        "viewedCompressedFinal": true,
+        "standalonePortrait": true,
+        "noBakedUiOrText": true,
+        "landmarkLayout": "PASS: same mountains, lake, left trees and paths; no unfamiliar major buildings.",
+        "petIdentity": "PASS: small white curly dog with mint collar/gold tag, orange-white cat; no new animal.",
+        "dayNight": "PASS: daytime/morning/sunset sky and sunlight; no moon or stars.",
+        "composition": "PASS: roomy upper sky, pets remain in lower area at natural small scale.",
+        "actionAndLighting": "清淡晨空、右侧低太阳、薄雾湖面与露感草地；白狗低头闻原蓝色球，橘猫在左树边伸展。"
+      },
+      "originalDimensions": [
+        1213,
+        1296
+      ],
+      "originalSha256": "f519beaa01d4fa312edba66a14437c0f2b4b24fbae61ebcb1f0c6649196fbfd5",
+      "originalCopyVerified": true,
+      "webpSha256": "809dd2ac0171038812f05539026e749749d2556793a1ccbacc26d0b660add70b",
+      "webpBytes": 246656,
+      "webpDimensions": [
+        853,
+        912
+      ],
+      "motherSha256AtDelivery": "a9d3ec2130ca848b1b83a0fd5ac4a2c46c0bc8bec3cbd025298d7208440ed9fa"
+    },
+    {
+      "key": "summer-sunset",
+      "sourceGeneratedFile": "C:/Users/Administrator/.codex/generated_images/01a14b28-23ec-7b92-badd-fbf02d01531a/exec-08c1b7e3-5f69-4ee1-b762-e318994a8b4c.png",
+      "motherFile": "dist/assets/locked-summer-b.webp",
+      "originalFile": "references/time-extensions/world-summer-sunset.png",
+      "webpFile": "dist/assets/world-summer-sunset.webp",
+      "prompt": "Use case: lighting-weather. EDIT TARGET: this exact supplied SUMMER B mother image, preserving its actual geography and composition. Make ONE independent complete high-resolution portrait scene, exact aspect ratio 853:912. Lock the framing and positions: huge leafy tree trunk along left edge and canopy covering upper left, spacious sky at upper center/right, distant layered mountains at same height and silhouette, broad open turquoise lake across lower middle with the same irregular shoreline, tiny existing lakeside village on far right shore, nearshore trees, low wooden fence and winding path across foreground hillside, green meadow and white daisies. Maintain original camera, depth, spatial coordinates and overall view. Keep exactly the same two small pets: white curly bichon with mint collar and gold paw charm in lower-right foreground, small orange-and-white cat beside the left tree. Keep the blue paw-print ball beside the bichon in lower right. Preserve faces, fur patterns, relative size; no new animals, no new buildings or lamps, no giant mascots, no centered crowded close-up. Keep painterly storybook finish matching the source. Retain clean empty upper central-left sky for real DOM text, but generate no text, no UI, no graphics or borders. Transform to SUMMER SUNSET: the sun is now low just above the existing far-right distant mountain ridge, warm peach and rose clouds form across a broad lavender-blue sky, a coherent narrow golden reflection glitters across the lake toward the foreground, long tree/fence/pet shadows cross the green meadow. Keep all summer foliage GREEN with warm edge light, not autumn foliage. Bichon pauses beside the blue ball and looks back toward the orange-and-white cat, a slight natural full-body posture change; cat walks from the left tree along the same path. Keep the lake conspicuous and wide open, unchanged shoreline and mountains. This must be genuine sunset environment lighting, not tinted daytime. No moon, no stars, no additional celestial bodies.",
+      "refinementPrompt": null,
+      "visualChecks": {
+        "viewedMotherBeforeEdit": true,
+        "viewedGeneratedResult": true,
+        "viewedCompressedFinal": true,
+        "standalonePortrait": true,
+        "noBakedUiOrText": true,
+        "landmarkLayout": "PASS: same mountains, lake, left trees and paths; no unfamiliar major buildings.",
+        "petIdentity": "PASS: small white curly dog with mint collar/gold tag, orange-white cat; no new animal.",
+        "dayNight": "PASS: daytime/morning/sunset sky and sunlight; no moon or stars.",
+        "composition": "PASS: roomy upper sky, pets remain in lower area at natural small scale.",
+        "actionAndLighting": "玫瑰橘色天空与右侧低太阳、金色湖面、草地长影；白狗在蓝球旁回望，橘猫沿斜坡行走。"
+      },
+      "originalDimensions": [
+        1213,
+        1296
+      ],
+      "originalSha256": "d2fe1a1b5d7583f7b244af3be5953d14a84b6974e43bb259a70a4d5d0edbed53",
+      "originalCopyVerified": true,
+      "webpSha256": "c41e950dedf2639bd6c33b80234ee572fa7a8a46bf8b4bbf540fa75e98adf03b",
+      "webpBytes": 278236,
+      "webpDimensions": [
+        853,
+        912
+      ],
+      "motherSha256AtDelivery": "a9d3ec2130ca848b1b83a0fd5ac4a2c46c0bc8bec3cbd025298d7208440ed9fa"
+    },
+    {
+      "key": "summer-night",
+      "sourceGeneratedFile": "C:/Users/Administrator/.codex/generated_images/01a14b28-23ec-7b92-badd-fbf02d01531a/exec-23af0db4-afac-4fcb-9150-94db1bcbd1a1.png",
+      "motherFile": "dist/assets/locked-summer-b.webp",
+      "originalFile": "references/time-extensions/world-summer-night.png",
+      "webpFile": "dist/assets/world-summer-night.webp",
+      "prompt": "Use case: lighting-weather. EDIT TARGET: this exact supplied SUMMER B mother image, preserving its actual geography and composition. Make ONE independent complete high-resolution portrait scene, exact aspect ratio 853:912. Lock the framing and positions: huge leafy tree trunk along left edge and canopy covering upper left, spacious sky at upper center/right, distant layered mountains at same height and silhouette, broad open turquoise lake across lower middle with the same irregular shoreline, tiny existing lakeside village on far right shore, nearshore trees, low wooden fence and winding path across foreground hillside, green meadow and white daisies. Maintain original camera, depth, spatial coordinates and overall view. Keep exactly the same two small pets: white curly bichon with mint collar and gold paw charm in lower-right foreground, small orange-and-white cat beside the left tree. Keep the blue paw-print ball beside the bichon in lower right. Preserve faces, fur patterns, relative size; no new animals, no new buildings or lamps, no giant mascots, no centered crowded close-up. Keep painterly storybook finish matching the source. Retain clean empty upper central-left sky for real DOM text, but generate no text, no UI, no graphics or borders. Transform to genuine SUMMER NIGHT. Deep cobalt-blue sky with delicate stars, a small crescent moon in the upper RIGHT, different sparse silver-edged night clouds; absolutely no sun, no sunset orb or bright horizon glow. Clear moonlit highlights on the broad lake and blue-green foliage, a silver reflection on the water, soft cool cast shadows. Only the already-existing far-shore village windows gain a few warm lights. Remove or lower sails of the existing tiny sailboats as they rest on the lake; do not add boats. The same bichon now rests lying comfortably beside its blue paw-print ball, head raised to look across the lake, mint collar and small gold paw charm still visible; orange-and-white cat sits quietly beside the original left tree. Keep the animals same small scale. Preserve the wide open summer landscape and every major geographical landmark. No other animals, houses, lamps or glowing fantasy objects. Not merely darkened daylight: actually paint stars, moon, night clouds, water reflections and warm existing windows.",
+      "refinementPrompt": null,
+      "visualChecks": {
+        "viewedMotherBeforeEdit": true,
+        "viewedGeneratedResult": true,
+        "viewedCompressedFinal": true,
+        "standalonePortrait": true,
+        "noBakedUiOrText": true,
+        "landmarkLayout": "PASS: same mountains, lake, left trees and paths; no unfamiliar major buildings.",
+        "petIdentity": "PASS: small white curly dog with mint collar/gold tag, orange-white cat; no new animal.",
+        "dayNight": "PASS: actual moon/star sky, cool lake reflection, existing warm village windows, no visible sun or dawn horizon.",
+        "composition": "PASS: roomy upper sky, pets remain in lower area at natural small scale.",
+        "actionAndLighting": "深蓝星空、右上弯月、银色湖面与原岸边村落暖窗；白狗卧在蓝球旁抬头，橘猫坐在左树边。"
+      },
+      "originalDimensions": [
+        1213,
+        1296
+      ],
+      "originalSha256": "8197f083a41cbe337d2c53c1ba1a3b5e4f36f21a8eaee49738d77bd6f8bf7009",
+      "originalCopyVerified": true,
+      "webpSha256": "ea9a15e159cea8038698fbccf487fbc140119a531ae972d0651bf466db0cb806",
+      "webpBytes": 241516,
+      "webpDimensions": [
+        853,
+        912
+      ],
+      "motherSha256AtDelivery": "a9d3ec2130ca848b1b83a0fd5ac4a2c46c0bc8bec3cbd025298d7208440ed9fa"
+    }
+  ]
+}

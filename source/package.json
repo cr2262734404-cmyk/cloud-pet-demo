@@ -1,0 +1,1 @@
+{"name":"cloud-pet-v1-h5-demo","version":"1.0.0","private":true,"type":"module","scripts":{"start":"node server.mjs","test":"node --test test-engine.mjs"},"engines":{"node":">=20"}}

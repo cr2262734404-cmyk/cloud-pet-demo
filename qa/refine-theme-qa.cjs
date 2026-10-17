@@ -1,0 +1,6 @@
+const fs=require('node:fs');let s=fs.readFileSync('work/theme-qa.mjs','utf8');
+s=s.replace("command(['set','viewport',String(width),String(height)]);","command(['set','viewport',String(width),String(height),width===390?'2':'1']);");
+s=s.replace("for(const period of ['morning','day','sunset','night']){", "for(const period of ['morning','day','sunset','night']){\n  if(width===390){\n   command(['click','[data-action=\"theme-controls\"]']);\n   command(['click',`[data-action=\"season\"][data-id=\"${season}\"]`]);\n   command(['click',`[data-action=\"period\"][data-id=\"${period}\"]`]);\n   command(['click','.modal-close']);\n  }");
+s=s.replace("const theme=app.context.theme;Object.assign", "const theme=app.context.theme;if(${width}===390&&(theme.season!==${JSON.stringify(season)}||theme.period!==${JSON.stringify(period)}))throw Error('Theme controls did not apply expected state');Object.assign");
+s=s.replace("method:'Isolated agent-browser cloud-themeqa Chrome desktop session with viewport resizing; screenshots and DOM geometry, not physical hardware.'", "method:'Isolated Chrome; 390px uses actual theme picker clicks for all16 states and DPR2 screenshots; 320/430 set the same app theme context for geometry. Desktop emulation, not physical hardware.'");
+fs.writeFileSync('work/theme-qa.mjs',s);

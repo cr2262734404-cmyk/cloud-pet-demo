@@ -1,0 +1,126 @@
+{
+  "createdAt": "2026-10-17T20:18:05.452Z",
+  "tool": "built-in image_gen.imagegen",
+  "assets": [
+    {
+      "name": "world-winter-day",
+      "mother": "dist/assets/locked-winter.webp",
+      "source": "references/time-extensions/world-winter-day.png",
+      "webp": "dist/assets/world-winter-day.webp",
+      "width": 1212,
+      "height": 1297,
+      "webpWidth": 1212,
+      "webpHeight": 1297,
+      "sourceBytes": 2600358,
+      "webpBytes": 436724,
+      "sourceSha256": "fde08c60e0151d4beefe38ffa016875b7de17099520801b287399c674ec11a48",
+      "motherSha256": "42e37c9c1d5d379e6fa93fd7986b3830c14aadb31b2b37f9c66d66888d390842",
+      "formatConversionOnly": true,
+      "visualCheck": {
+        "reviewed": true,
+        "timeLogic": "清亮蓝天白云与自然日照、清晰蓝色雪影；彻底去掉月亮和天上星点；狗醒着望窗外、猫伸懒腰。",
+        "preserved": "保留天空/远山/湖泊/左侧树/路径的空间层次；冬季右侧原小屋位置保持；两只宠物身份及画面尺度延续；无新增大型建筑或宠物，无UI/文字。"
+      }
+    },
+    {
+      "name": "world-autumn-morning",
+      "mother": "dist/assets/locked-autumn-a.webp",
+      "source": "references/time-extensions/world-autumn-morning.png",
+      "webp": "dist/assets/world-autumn-morning.webp",
+      "width": 1213,
+      "height": 1297,
+      "webpWidth": 1213,
+      "webpHeight": 1297,
+      "sourceBytes": 2586132,
+      "webpBytes": 395146,
+      "sourceSha256": "d4e3731b83c17a7203b9b1d25850a22fe9b70798d1877dc97d47e019dc3b84c2",
+      "motherSha256": "59282f98375b1313694da11e66f5ffa353e7d43102384ade3b6523ce1351685f",
+      "formatConversionOnly": true,
+      "visualCheck": {
+        "reviewed": true,
+        "timeLogic": "低位晨阳、蓝色天空与湖面薄雾；无月亮星空；白狗低头闻落叶、猫沿路径走来。",
+        "preserved": "保留天空/远山/湖泊/左侧树/路径的空间层次；冬季右侧原小屋位置保持；两只宠物身份及画面尺度延续；无新增大型建筑或宠物，无UI/文字。"
+      }
+    },
+    {
+      "name": "world-autumn-day",
+      "mother": "dist/assets/locked-autumn-a.webp",
+      "source": "references/time-extensions/world-autumn-day.png",
+      "webp": "dist/assets/world-autumn-day.webp",
+      "width": 1213,
+      "height": 1297,
+      "webpWidth": 1213,
+      "webpHeight": 1297,
+      "sourceBytes": 2658139,
+      "webpBytes": 448922,
+      "sourceSha256": "2a894e170e9592ff4a3b117609c2464fac9094e81b616ad853e763a1a8ab78fd",
+      "motherSha256": "59282f98375b1313694da11e66f5ffa353e7d43102384ade3b6523ce1351685f",
+      "formatConversionOnly": true,
+      "visualCheck": {
+        "reviewed": true,
+        "timeLogic": "太阳升高、明亮蓝天白云、蓝色湖面与短阴影；无月亮星空；狗回头轻步行走、猫抬爪玩落叶。",
+        "preserved": "保留天空/远山/湖泊/左侧树/路径的空间层次；冬季右侧原小屋位置保持；两只宠物身份及画面尺度延续；无新增大型建筑或宠物，无UI/文字。"
+      }
+    },
+    {
+      "name": "world-autumn-night",
+      "mother": "dist/assets/locked-autumn-a.webp",
+      "source": "references/time-extensions/world-autumn-night.png",
+      "webp": "dist/assets/world-autumn-night.webp",
+      "width": 1212,
+      "height": 1297,
+      "webpWidth": 1212,
+      "webpHeight": 1297,
+      "sourceBytes": 2694828,
+      "webpBytes": 434878,
+      "sourceSha256": "30edbde55692c0289cbc55afeda5a20da8088c92c83e7dd91ca87285dc37aaae",
+      "motherSha256": "59282f98375b1313694da11e66f5ffa353e7d43102384ade3b6523ce1351685f",
+      "formatConversionOnly": true,
+      "visualCheck": {
+        "reviewed": true,
+        "timeLogic": "新绘靛蓝星空与上方弯月、湖面银光及远村灯光；狗坐着望湖、猫安静趴在后侧；无太阳。",
+        "preserved": "保留天空/远山/湖泊/左侧树/路径的空间层次；冬季右侧原小屋位置保持；两只宠物身份及画面尺度延续；无新增大型建筑或宠物，无UI/文字。"
+      }
+    },
+    {
+      "name": "world-winter-morning",
+      "mother": "dist/assets/locked-winter.webp",
+      "source": "references/time-extensions/world-winter-morning.png",
+      "webp": "dist/assets/world-winter-morning.webp",
+      "width": 1212,
+      "height": 1297,
+      "webpWidth": 1212,
+      "webpHeight": 1297,
+      "sourceBytes": 2556221,
+      "webpBytes": 404126,
+      "sourceSha256": "23eff3bc3fc5e885af1476879982f28c238462195e4dd0748c9855016a263496",
+      "motherSha256": "42e37c9c1d5d379e6fa93fd7986b3830c14aadb31b2b37f9c66d66888d390842",
+      "formatConversionOnly": true,
+      "visualCheck": {
+        "reviewed": true,
+        "timeLogic": "左侧低位晨阳、山湖薄雾与长柔影；彻底去掉月亮和天上星点；狗睡醒抬头、猫半睁眼休息。",
+        "preserved": "保留天空/远山/湖泊/左侧树/路径的空间层次；冬季右侧原小屋位置保持；两只宠物身份及画面尺度延续；无新增大型建筑或宠物，无UI/文字。"
+      }
+    },
+    {
+      "name": "world-winter-sunset",
+      "mother": "dist/assets/locked-winter.webp",
+      "source": "references/time-extensions/world-winter-sunset.png",
+      "webp": "dist/assets/world-winter-sunset.webp",
+      "width": 1212,
+      "height": 1297,
+      "webpWidth": 1212,
+      "webpHeight": 1297,
+      "sourceBytes": 2454413,
+      "webpBytes": 371574,
+      "sourceSha256": "b13bd512b7770f15af75450c40d9067b42cd3adb9197163b402b874e3357dafb",
+      "motherSha256": "42e37c9c1d5d379e6fa93fd7986b3830c14aadb31b2b37f9c66d66888d390842",
+      "formatConversionOnly": true,
+      "visualCheck": {
+        "reviewed": true,
+        "timeLogic": "左侧低太阳、玫瑰晚霞与雪地长影、窗内暖灯；无月亮星空；狗舒适伏卧、猫坐看远景。",
+        "preserved": "保留天空/远山/湖泊/左侧树/路径的空间层次；冬季右侧原小屋位置保持；两只宠物身份及画面尺度延续；无新增大型建筑或宠物，无UI/文字。"
+      }
+    }
+  ]
+}

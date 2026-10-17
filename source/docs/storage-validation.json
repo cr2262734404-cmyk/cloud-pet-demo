@@ -1,0 +1,30 @@
+{
+  "createdAt": "2026-10-17T19:47:43.193Z",
+  "method": "isolated Chrome own-application test; no user production data",
+  "mode": "local",
+  "passed": true,
+  "realDeviceTest": false,
+  "records": [
+    {
+      "after": "来自另一标签的宠物编辑",
+      "before": "来自另一标签的宠物编辑",
+      "method": "same repro as failed version: separate engine writes shared localStorage and dispatches storage event while modal is open",
+      "name": "modal-open missed storage event, followed by write",
+      "passed": true
+    },
+    {
+      "customerName": "并发保存的主人",
+      "locksAvailable": true,
+      "method": "main application plus same-origin iframe application, independent engine instances, Promise.all writes through each real main.js mutate",
+      "name": "two independent browsing contexts submit concurrently",
+      "passed": true,
+      "petName": "并发保存的宠物",
+      "results": [
+        true,
+        true
+      ]
+    }
+  ],
+  "url": "http://127.0.0.1:4174/cloud-pet-demo/?role=customer&season=spring&period=morning#customer/home",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+}
